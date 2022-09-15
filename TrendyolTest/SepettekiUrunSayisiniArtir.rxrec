@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="685d3354-efde-4d91-9b10-1b781c311f76"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="SepettekiUrunSayisiniArtir"
+	namespace="TrendyolTest">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Move"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="3efe9612-d56d-4c1d-baa5-189e745928af"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="a4f1f37c-d177-40c9-9299-a56662277616"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='www.trendyol.com']//div[#'pb-container']/div/div[3]/div[2]/div[3]//input[@type='text']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<keysequenceitem
+		KeySequence="{Back}"
+		duration="20ms"
+		enabled="True"
+		optional="False"
+		presstime="20ms"
+		searchpropertyid="43d18429-3585-403c-9edc-6a3365725942">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="a4f1f37c-d177-40c9-9299-a56662277616"
+			sourcename="Recorder">
+				<path>
+					/dom[@domain='www.trendyol.com']//div[#'pb-container']/div/div[3]/div[2]/div[3]//input[@type='text']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</keysequenceitem>
+		<keysequenceitem
+		KeySequence="2"
+		duration="20ms"
+		enabled="True"
+		optional="False"
+		presstime="20ms"
+		searchpropertyid="2682ab0d-07bf-4466-94b5-23f6d6127ff1">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="a4f1f37c-d177-40c9-9299-a56662277616"
+			sourcename="Recorder">
+				<path>
+					/dom[@domain='www.trendyol.com']//div[#'pb-container']/div/div[3]/div[2]/div[3]//input[@type='text']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</keysequenceitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="47;26"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="a896b080-d825-46e2-afab-a061775963d7"
+		sx="1513"
+		sy="305"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="2f9774ab-a5f1-404e-9b76-84db395ebe95"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="spantag"
+				rect="1466,279,135,30"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Sepeti Onayla
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='www.trendyol.com']//div[#'pb-container']/aside/div/div[1]/?/?/span[@innertext='Sepeti Onayla']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="046e260a-daf9-4c9a-b436-592320f872c2">
+				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
+T2P/2Q==
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="54f6c10d-9aab-41cf-922a-ad1785b30a0c"
+	name="TrendyolTestRepository"
+	relativepath="TrendyolTestRepository.rxrep">
+		<codegen
+		classname="TrendyolTestRepository"
+		namespace="TrendyolTest">
+		</codegen>
+		<rootfolder
+		id="9fb9b44c-a0d9-4454-a26c-fa4f04e128ac"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		SepettekiUrunSayisiniArtir.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

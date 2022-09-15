@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="9.29s"
+		durationms="9291"
+		type="root"
+		rid="270da7cec8408fc"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="user"
+		rxversion="10.2.4.0"
+		host="DESKTOP-UK4GL4A"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="14.09.2022 01:21:13"
+		timestampiso="2022-09-13T22:21:13"
+		endtime="14.09.2022 01:21:23"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="OpenBrowser">
+		<detail>
+			OpenBrowser
+		</detail>
+		<errormessage>
+			Element is not visible in the UI and thus click can't be perfomed.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.105"
+			timeRelativeToTestModuleStartTime="00:06.105"
+			timeWallClock="01:21:19"
+			time="00:06.105"
+			level="Info"
+			category="Website"
+			errimg="images_OpenBrow_4c5b5495\OpenBrow_4c5b5495_6197d509_trace.jpg"
+			errthumb="images_OpenBrow_4c5b5495\OpenBrow_4c5b5495_6197d509_trace_thumb.jpg">
+			<message>
+				Opening web site 'www.trendyol.com' with browser 'chrome' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\OpenBrowser.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.341"
+			timeRelativeToTestModuleStartTime="00:06.341"
+			timeWallClock="01:21:20"
+			time="00:06.341"
+			level="Info"
+			category="Mouse"
+			errimg="images_OpenBrow_4c5b5495\OpenBrow_4c5b5495_3a63df57_trace.jpg"
+			errthumb="images_OpenBrow_4c5b5495\OpenBrow_4c5b5495_3a63df57_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.UEyeOl' at 135;18.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]//div[@innertext='Üye Ol']"
+				itempath=".//div[#'account-navigation-container']/div/div[1]//div[@innertext='Üye Ol']"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.UEyeOl"
+				id="744ba22e73804621be2b88c90137dd06"
+				timeout="60000"
+				codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\OpenBrowser.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.990"
+			timeRelativeToTestModuleStartTime="00:08.990"
+			timeWallClock="01:21:22"
+			time="00:08.990"
+			level="Warn"
+			category="Click">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>(null)
+			</message>
+			<metainfo
+				codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\OpenBrowser.cs"
+				codeline="87"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.153"
+			timeRelativeToTestModuleStartTime="00:09.153"
+			timeWallClock="01:21:22"
+			time="00:09.153"
+			level="Error"
+			category="Module"
+			errimg="images_OpenBrow_4c5b5495\OpenBrow_4c5b5495_b67c0e14_trace.jpg"
+			errthumb="images_OpenBrow_4c5b5495\OpenBrow_4c5b5495_b67c0e14_trace_thumb.jpg">
+			<message>
+				Element is not visible in the UI and thus click can't be perfomed.
+			</message>
+			<metainfo
+				stacktrace="   konum: Ranorex.Adapter.Click(MouseButtons buttons, Location location, Int32 times, Duration moveTime, Boolean showOutOfBoundsWarning)
+   konum: Ranorex.Adapter.Click(Location location)
+   konum: TrendyolTest.OpenBrowser.Ranorex.Core.Testing.ITestModule.Run() c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\OpenBrowser.cs içinde: satır 87
+   konum: Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\OpenBrowser.cs içinde"
+				codeline="87"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

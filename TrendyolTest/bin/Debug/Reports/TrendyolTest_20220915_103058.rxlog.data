@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="16.01s"
+		durationms="16007"
+		type="root"
+		rid="1eec51c96aca39c"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="1"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="user"
+		rxversion="10.2.4.0"
+		host="DESKTOP-UK4GL4A"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="15.09.2022 10:30:58"
+		timestampiso="2022-09-15T07:30:58"
+		endtime="15.09.2022 10:31:14"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="8.92s"
+			durationms="8920"
+			type="test-suite"
+			rid="2d39181a86be48f"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesstestcasecount="0"
+			totalfailedtestcasecount="1"
+			totalblockedtestcasecount="0"
+			childsuccesscount="0"
+			childfailedcount="1"
+			childblockedcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			totalmaintenancemodecount="0"
+			testsuitename="TrendyolTest"
+			headertext="TrendyolTest"
+			runconfigname="TestRun"
+			runlabel="">
+			<params>
+			</params>
+			<activity
+				result="Failed"
+				duration="8.89s"
+				durationms="8894"
+				type="test-case"
+				rid="129e73d3aa2b670"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="1"
+				totalblockedtestcasecount="0"
+				childsuccesscount="1"
+				childfailedcount="1"
+				childblockedcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				testcontainername="TC001-Navigation_to_registration_page"
+				testcontainerid="e23dc6c2-e8f1-4bc9-9b7c-df99f7ea89bd"
+				headertext="TC001-Navigation_to_registration_page"
+				displayName="TC001-Navigation_to_registration_page"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+				<activity
+					result="Success"
+					duration="706ms"
+					durationms="706"
+					type="setup-container"
+					rid="33a3f2cd939a655"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="1"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0">
+					<activity
+						result="Success"
+						duration="679ms"
+						durationms="679"
+						type="test-module"
+						rid="2e55a7cef111404"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="OpenBrowser"
+						displayName="OpenBrowser"
+						moduleid="78de0e53-fd12-4806-9682-c6d2370612a9"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<varbindings>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.065"
+							timeRelativeToTestModuleStartTime="00:00.013"
+							timeWallClock="10:31:05"
+							time="00:00.065"
+							level="Info"
+							category="Website">
+							<message>
+								trendyola giriş yapıldı<br/>Opening web site 'www.trendyol.com' with browser 'Firefox' in maximized mode.
+							</message>
+							<metainfo
+								itemindex="0"
+								codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\OpenBrowser.cs"
+								codeline="83"
+								loglvl="Info">
+							</metainfo>
+						</item>
+					</activity>
+				</activity>
+				<activity
+					result="Failed"
+					duration="8.18s"
+					durationms="8183"
+					type="test-module"
+					rid="725cfbba40b33c4"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="GirisYap"
+					displayName="GirisYap"
+					moduleid="579e131c-f896-438b-873d-73ce041b6a5a"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<errormessage>
+						Failed to move to location 'Center' within element '{PTag:Giriş Yap}'.
+					</errormessage>
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.740"
+						timeRelativeToTestModuleStartTime="00:00.004"
+						timeWallClock="10:31:06"
+						time="00:00.740"
+						level="Info"
+						category="Wait">
+						<message>
+							Waiting 3s to exist. Associated repository item: 'ApplicationUnderTest.GirişYap'
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]/?/?/p[@innertext='Giriş Yap']"
+							itempath=".//div[#'account-navigation-container']/div/div[1]/?/?/p[@innertext='Giriş Yap']"
+							fullname="TrendyolTestRepository.ApplicationUnderTest.GirişYap"
+							id="e614e82383e34ea081a853e5efae7604"
+							timeout="3000"
+							codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\GirisYap.cs"
+							codeline="82"
+							itemindex="0"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:04.541"
+						timeRelativeToTestModuleStartTime="00:03.805"
+						timeWallClock="10:31:09"
+						time="00:04.541"
+						level="Info"
+						category="User">
+						<message>
+							Item 'GirişYap' was found using Robust path.
+						</message>
+						<metainfo
+							codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\GirisYap.cs"
+							codeline="83"
+							loglvl="Info"
+							itemindex="0">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:05.117"
+						timeRelativeToTestModuleStartTime="00:04.382"
+						timeWallClock="10:31:10"
+						time="00:05.117"
+						level="Info"
+						category="Mouse"
+						errimg="images_Trendyol_fae9bc0\Trendyol_fae9bc0_eabefa81_trace.jpg"
+						errthumb="images_Trendyol_fae9bc0\Trendyol_fae9bc0_eabefa81_trace_thumb.jpg">
+						<message>
+							Mouse Left Move item 'ApplicationUnderTest.GirişYap' at Center.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]/?/?/p[@innertext='Giriş Yap']"
+							itempath=".//div[#'account-navigation-container']/div/div[1]/?/?/p[@innertext='Giriş Yap']"
+							fullname="TrendyolTestRepository.ApplicationUnderTest.GirişYap"
+							id="e614e82383e34ea081a853e5efae7604"
+							timeout="60000"
+							codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\GirisYap.cs"
+							codeline="85"
+							itemindex="1"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:08.439"
+						timeRelativeToTestModuleStartTime="00:07.704"
+						timeWallClock="10:31:13"
+						time="00:08.439"
+						level="Info"
+						category="User"
+						errimg="images_Trendyol_fae9bc0\Trendyol_fae9bc0_c5ba1a67_trace.jpg"
+						errthumb="images_Trendyol_fae9bc0\Trendyol_fae9bc0_c5ba1a67_trace_thumb.jpg">
+						<message>
+							Item 'GirişYap' was found using Robust path.
+						</message>
+						<metainfo
+							codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\GirisYap.cs"
+							codeline="86"
+							loglvl="Info"
+							itemindex="1">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:08.781"
+						timeRelativeToTestModuleStartTime="00:08.046"
+						timeWallClock="10:31:14"
+						time="00:08.781"
+						level="Error"
+						category="Module"
+						errimg="images_Trendyol_fae9bc0\Trendyol_fae9bc0_91ae9f88_trace.jpg"
+						errthumb="images_Trendyol_fae9bc0\Trendyol_fae9bc0_91ae9f88_trace_thumb.jpg">
+						<message>
+							Failed to move to location 'Center' within element '{PTag:Giriş Yap}'.<br/>The pointer cannot be moved to point '{X=137687,Y=21000}' since it is outside of the visible desktop.
+						</message>
+						<metainfo
+							stacktrace="   konum: Ranorex.Mouse.MoveTo(Element element, Location location, Duration moveTime)
+   konum: Ranorex.Adapter.MoveTo(Location location, Duration moveTime, Boolean showOutOfBoundsWarning)
+   konum: Ranorex.Adapter.MoveTo()
+   konum: TrendyolTest.GirisYap.Ranorex.Core.Testing.ITestModule.Run() c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\GirisYap.cs içinde: satır 86
+   konum: Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+							codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\GirisYap.cs"
+							codeline="86"
+							type="repoitem"
+							path="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]/?/?/p[@innertext='Giriş Yap']"
+							itempath=".//div[#'account-navigation-container']/div/div[1]/?/?/p[@innertext='Giriş Yap']"
+							fullname="TrendyolTestRepository.ApplicationUnderTest.GirişYap"
+							id="e614e82383e34ea081a853e5efae7604"
+							timeout="60000"
+							loglvl="Error"
+							itemindex="1">
+						</metainfo>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

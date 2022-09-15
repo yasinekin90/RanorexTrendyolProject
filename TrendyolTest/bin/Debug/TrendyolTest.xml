@@ -1,0 +1,2044 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TrendyolTest</name>
+    </assembly>
+    <members>
+        <member name="T:TrendyolTest.AddProductWishList">
+             <summary>
+            The AddProductWishList recording.
+             </summary>
+        </member>
+        <member name="F:TrendyolTest.AddProductWishList.repo">
+            <summary>
+            Holds an instance of the TrendyolTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.AddProductWishList.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.AddProductWishList.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TrendyolTest.AddProductWishList.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.AddProductWishList.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TrendyolTest.AddProductWishList.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.AddProductWishList.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:TrendyolTest.answer">
+             <summary>
+            The answer recording.
+             </summary>
+        </member>
+        <member name="F:TrendyolTest.answer.repo">
+            <summary>
+            Holds an instance of the TrendyolTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.answer.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.answer.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TrendyolTest.answer.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.answer.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TrendyolTest.answer.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.answer.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:TrendyolTest.ClicksOnUyeOl">
+             <summary>
+            The ClicksOnUyeOl recording.
+             </summary>
+        </member>
+        <member name="F:TrendyolTest.ClicksOnUyeOl.repo">
+            <summary>
+            Holds an instance of the TrendyolTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.ClicksOnUyeOl.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.ClicksOnUyeOl.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TrendyolTest.ClicksOnUyeOl.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.ClicksOnUyeOl.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TrendyolTest.ClicksOnUyeOl.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.ClicksOnUyeOl.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:TrendyolTest.CloseBrowser">
+             <summary>
+            The CloseBrowser recording.
+             </summary>
+        </member>
+        <member name="F:TrendyolTest.CloseBrowser.repo">
+            <summary>
+            Holds an instance of the TrendyolTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.CloseBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.CloseBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TrendyolTest.CloseBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.CloseBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TrendyolTest.CloseBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.CloseBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:TrendyolTest.emailblankspace">
+             <summary>
+            The emailblankspace recording.
+             </summary>
+        </member>
+        <member name="F:TrendyolTest.emailblankspace.repo">
+            <summary>
+            Holds an instance of the TrendyolTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.emailblankspace.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.emailblankspace.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TrendyolTest.emailblankspace.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.emailblankspace.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TrendyolTest.emailblankspace.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.emailblankspace.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:TrendyolTest.emailgir">
+             <summary>
+            The emailgir recording.
+             </summary>
+        </member>
+        <member name="F:TrendyolTest.emailgir.repo">
+            <summary>
+            Holds an instance of the TrendyolTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.emailgir.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.emailgir.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TrendyolTest.emailgir.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.emailgir.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TrendyolTest.emailgir.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.emailgir.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:TrendyolTest.Eposta">
+             <summary>
+            The Eposta recording.
+             </summary>
+        </member>
+        <member name="F:TrendyolTest.Eposta.repo">
+            <summary>
+            Holds an instance of the TrendyolTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.Eposta.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.Eposta.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TrendyolTest.Eposta.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.Eposta.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TrendyolTest.Eposta.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.Eposta.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:TrendyolTest.ErkekButton">
+             <summary>
+            The ErkekButton recording.
+             </summary>
+        </member>
+        <member name="F:TrendyolTest.ErkekButton.repo">
+            <summary>
+            Holds an instance of the TrendyolTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.ErkekButton.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.ErkekButton.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TrendyolTest.ErkekButton.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.ErkekButton.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TrendyolTest.ErkekButton.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.ErkekButton.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:TrendyolTest.ErkekTshirt">
+             <summary>
+            The ErkekTshirt recording.
+             </summary>
+        </member>
+        <member name="F:TrendyolTest.ErkekTshirt.repo">
+            <summary>
+            Holds an instance of the TrendyolTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.ErkekTshirt.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.ErkekTshirt.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TrendyolTest.ErkekTshirt.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.ErkekTshirt.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TrendyolTest.ErkekTshirt.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.ErkekTshirt.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:TrendyolTest.FavorilemeGit">
+             <summary>
+            The FavorilemeGit recording.
+             </summary>
+        </member>
+        <member name="F:TrendyolTest.FavorilemeGit.repo">
+            <summary>
+            Holds an instance of the TrendyolTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.FavorilemeGit.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.FavorilemeGit.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TrendyolTest.FavorilemeGit.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.FavorilemeGit.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TrendyolTest.FavorilemeGit.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.FavorilemeGit.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:TrendyolTest.FavorilerimUrunDogrula">
+             <summary>
+            The FavorilerimUrunDogrula recording.
+             </summary>
+        </member>
+        <member name="F:TrendyolTest.FavorilerimUrunDogrula.repo">
+            <summary>
+            Holds an instance of the TrendyolTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.FavorilerimUrunDogrula.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.FavorilerimUrunDogrula.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TrendyolTest.FavorilerimUrunDogrula.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.FavorilerimUrunDogrula.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TrendyolTest.FavorilerimUrunDogrula.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.FavorilerimUrunDogrula.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:TrendyolTest.GirisYap">
+             <summary>
+            The GirisYap recording.
+             </summary>
+        </member>
+        <member name="F:TrendyolTest.GirisYap.repo">
+            <summary>
+            Holds an instance of the TrendyolTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.GirisYap.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.GirisYap.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TrendyolTest.GirisYap.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.GirisYap.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TrendyolTest.GirisYap.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.GirisYap.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:TrendyolTest.GirisYap2">
+             <summary>
+            The GirisYap2 recording.
+             </summary>
+        </member>
+        <member name="F:TrendyolTest.GirisYap2.repo">
+            <summary>
+            Holds an instance of the TrendyolTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.GirisYap2.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.GirisYap2.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TrendyolTest.GirisYap2.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.GirisYap2.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TrendyolTest.GirisYap2.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.GirisYap2.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:TrendyolTest.Help">
+             <summary>
+            The Help recording.
+             </summary>
+        </member>
+        <member name="F:TrendyolTest.Help.repo">
+            <summary>
+            Holds an instance of the TrendyolTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.Help.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.Help.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TrendyolTest.Help.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.Help.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TrendyolTest.Help.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.Help.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:TrendyolTest.KadınVeErkekButtons">
+             <summary>
+            The KadınButton recording.
+             </summary>
+        </member>
+        <member name="F:TrendyolTest.KadınVeErkekButtons.repo">
+            <summary>
+            Holds an instance of the TrendyolTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.KadınVeErkekButtons.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.KadınVeErkekButtons.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TrendyolTest.KadınVeErkekButtons.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.KadınVeErkekButtons.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TrendyolTest.KadınVeErkekButtons.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.KadınVeErkekButtons.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:TrendyolTest.LogOut">
+             <summary>
+            The LogOut recording.
+             </summary>
+        </member>
+        <member name="F:TrendyolTest.LogOut.repo">
+            <summary>
+            Holds an instance of the TrendyolTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.LogOut.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.LogOut.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TrendyolTest.LogOut.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.LogOut.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TrendyolTest.LogOut.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.LogOut.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:TrendyolTest.OdemeSayfasinaGec">
+             <summary>
+            The OdemeSayfasinaGec recording.
+             </summary>
+        </member>
+        <member name="F:TrendyolTest.OdemeSayfasinaGec.repo">
+            <summary>
+            Holds an instance of the TrendyolTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.OdemeSayfasinaGec.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.OdemeSayfasinaGec.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TrendyolTest.OdemeSayfasinaGec.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.OdemeSayfasinaGec.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TrendyolTest.OdemeSayfasinaGec.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.OdemeSayfasinaGec.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:TrendyolTest.OpenBrowser">
+             <summary>
+            The OpenBrowser recording.
+             </summary>
+        </member>
+        <member name="F:TrendyolTest.OpenBrowser.repo">
+            <summary>
+            Holds an instance of the TrendyolTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.OpenBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.OpenBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TrendyolTest.OpenBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.OpenBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TrendyolTest.OpenBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.OpenBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:TrendyolTest.Recording1">
+             <summary>
+            The Recording1 recording.
+             </summary>
+        </member>
+        <member name="F:TrendyolTest.Recording1.repo">
+            <summary>
+            Holds an instance of the TrendyolTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.Recording1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.Recording1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TrendyolTest.Recording1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.Recording1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TrendyolTest.Recording1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.Recording1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:TrendyolTest.Reporting">
+             <summary>
+            The Reporting recording.
+             </summary>
+        </member>
+        <member name="F:TrendyolTest.Reporting.repo">
+            <summary>
+            Holds an instance of the TrendyolTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.Reporting.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.Reporting.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TrendyolTest.Reporting.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.Reporting.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TrendyolTest.Reporting.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.Reporting.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.Reporting.class">
+            <summary>
+            Gets or sets the value of variable class.
+            </summary>
+        </member>
+        <member name="T:TrendyolTest.SepeteEkle">
+             <summary>
+            The SepeteEkle recording.
+             </summary>
+        </member>
+        <member name="F:TrendyolTest.SepeteEkle.repo">
+            <summary>
+            Holds an instance of the TrendyolTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.SepeteEkle.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.SepeteEkle.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TrendyolTest.SepeteEkle.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.SepeteEkle.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TrendyolTest.SepeteEkle.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.SepeteEkle.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:TrendyolTest.SepeteGit">
+             <summary>
+            The SepeteGit recording.
+             </summary>
+        </member>
+        <member name="F:TrendyolTest.SepeteGit.repo">
+            <summary>
+            Holds an instance of the TrendyolTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.SepeteGit.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.SepeteGit.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TrendyolTest.SepeteGit.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.SepeteGit.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TrendyolTest.SepeteGit.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.SepeteGit.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:TrendyolTest.SepetiOnayla">
+             <summary>
+            The SepetiOnayla recording.
+             </summary>
+        </member>
+        <member name="F:TrendyolTest.SepetiOnayla.repo">
+            <summary>
+            Holds an instance of the TrendyolTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.SepetiOnayla.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.SepetiOnayla.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TrendyolTest.SepetiOnayla.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.SepetiOnayla.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TrendyolTest.SepetiOnayla.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.SepetiOnayla.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:TrendyolTest.SepettekiUrunSayisiniArtir">
+             <summary>
+            The SepettekiUrunSayisiniArtir recording.
+             </summary>
+        </member>
+        <member name="F:TrendyolTest.SepettekiUrunSayisiniArtir.repo">
+            <summary>
+            Holds an instance of the TrendyolTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.SepettekiUrunSayisiniArtir.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.SepettekiUrunSayisiniArtir.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TrendyolTest.SepettekiUrunSayisiniArtir.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.SepettekiUrunSayisiniArtir.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TrendyolTest.SepettekiUrunSayisiniArtir.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.SepettekiUrunSayisiniArtir.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:TrendyolTest.SepettekiUrunuDogrula">
+             <summary>
+            The SepettekiUrunuDogrula recording.
+             </summary>
+        </member>
+        <member name="F:TrendyolTest.SepettekiUrunuDogrula.repo">
+            <summary>
+            Holds an instance of the TrendyolTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.SepettekiUrunuDogrula.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.SepettekiUrunuDogrula.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TrendyolTest.SepettekiUrunuDogrula.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.SepettekiUrunuDogrula.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TrendyolTest.SepettekiUrunuDogrula.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.SepettekiUrunuDogrula.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:TrendyolTest.SepettekiUrunuSil">
+             <summary>
+            The SepettekiUrunuSil recording.
+             </summary>
+        </member>
+        <member name="F:TrendyolTest.SepettekiUrunuSil.repo">
+            <summary>
+            Holds an instance of the TrendyolTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.SepettekiUrunuSil.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.SepettekiUrunuSil.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TrendyolTest.SepettekiUrunuSil.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.SepettekiUrunuSil.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TrendyolTest.SepettekiUrunuSil.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.SepettekiUrunuSil.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:TrendyolTest.Sifre">
+             <summary>
+            The Sifre recording.
+             </summary>
+        </member>
+        <member name="F:TrendyolTest.Sifre.repo">
+            <summary>
+            Holds an instance of the TrendyolTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.Sifre.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.Sifre.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TrendyolTest.Sifre.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.Sifre.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TrendyolTest.Sifre.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.Sifre.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:TrendyolTest.sifreblankspace">
+             <summary>
+            The sifreblankspace recording.
+             </summary>
+        </member>
+        <member name="F:TrendyolTest.sifreblankspace.repo">
+            <summary>
+            Holds an instance of the TrendyolTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.sifreblankspace.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.sifreblankspace.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TrendyolTest.sifreblankspace.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.sifreblankspace.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TrendyolTest.sifreblankspace.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.sifreblankspace.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:TrendyolTest.sifregir">
+             <summary>
+            The sifregir recording.
+             </summary>
+        </member>
+        <member name="F:TrendyolTest.sifregir.repo">
+            <summary>
+            Holds an instance of the TrendyolTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.sifregir.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.sifregir.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TrendyolTest.sifregir.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.sifregir.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TrendyolTest.sifregir.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.sifregir.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:TrendyolTest.TrendyolTestRepository">
+            <summary>
+            The class representing the TrendyolTestRepository element repository.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.TrendyolTestRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the TrendyolTestRepository element repository.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepository.ApplicationUnderTest">
+            <summary>
+            The ApplicationUnderTest folder.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepository.HttpsWwwTrendyolComUyelikcbEqhttps">
+            <summary>
+            The HttpsWwwTrendyolComUyelikcbEqhttps folder.
+            </summary>
+        </member>
+        <member name="T:TrendyolTest.TrendyolTestRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder">
+            <summary>
+            The ApplicationUnderTestAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ApplicationUnderTest  folder.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.UEyeOl">
+            <summary>
+            The UEyeOl item.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.UEyeOlInfo">
+            <summary>
+            The UEyeOl item info.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.UyeOl2">
+            <summary>
+            The UyeOl2 item.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.UyeOl2Info">
+            <summary>
+            The UyeOl2 item info.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.ErrorBoxWrapper">
+            <summary>
+            The ErrorBoxWrapper item.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.ErrorBoxWrapperInfo">
+            <summary>
+            The ErrorBoxWrapper item info.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.GirişYap">
+            <summary>
+            The GirişYap item.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.GirişYapInfo">
+            <summary>
+            The GirişYap item info.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.UyeOl">
+            <summary>
+            The UyeOl item.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.UyeOlInfo">
+            <summary>
+            The UyeOl item info.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.RegisterPasswordInput">
+            <summary>
+            The RegisterPasswordInput item.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.RegisterPasswordInputInfo">
+            <summary>
+            The RegisterPasswordInput item info.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.ErkekButton">
+            <summary>
+            The ErkekButton item.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.ErkekButtonInfo">
+            <summary>
+            The ErkekButton item info.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.RegisterEmail">
+            <summary>
+            The RegisterEmail item.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.RegisterEmailInfo">
+            <summary>
+            The RegisterEmail item info.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.FemaleQButtonQButtonMediumQFluid">
+            <summary>
+            The FemaleQButtonQButtonMediumQFluid item.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.FemaleQButtonQButtonMediumQFluidInfo">
+            <summary>
+            The FemaleQButtonQButtonMediumQFluid item info.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.Erkek">
+            <summary>
+            The Erkek item.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.ErkekInfo">
+            <summary>
+            The Erkek item info.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.Tişoert">
+            <summary>
+            The Tişoert item.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.TişoertInfo">
+            <summary>
+            The Tişoert item info.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.Overlay">
+            <summary>
+            The Overlay item.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.OverlayInfo">
+            <summary>
+            The Overlay item info.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.BasketPreviewContainerVisible">
+            <summary>
+            The BasketPreviewContainerVisible item.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.BasketPreviewContainerVisibleInfo">
+            <summary>
+            The BasketPreviewContainerVisible item info.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.GuıleKısaKolluTişoert">
+            <summary>
+            The GuıleKısaKolluTişoert item.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.GuıleKısaKolluTişoertInfo">
+            <summary>
+            The GuıleKısaKolluTişoert item info.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.ImageOverlayBody">
+            <summary>
+            The ImageOverlayBody item.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.ImageOverlayBodyInfo">
+            <summary>
+            The ImageOverlayBody item info.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.GuıleKısaKolluTişoert1">
+            <summary>
+            The GuıleKısaKolluTişoert1 item.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.GuıleKısaKolluTişoert1Info">
+            <summary>
+            The GuıleKısaKolluTişoert1 item info.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.AddToBasket">
+            <summary>
+            The AddToBasket item.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.AddToBasketInfo">
+            <summary>
+            The AddToBasket item info.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.FvrtBtn">
+            <summary>
+            The FvrtBtn item.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.FvrtBtnInfo">
+            <summary>
+            The FvrtBtn item info.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.GirişYap1">
+            <summary>
+            The GirişYap1 item.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.GirişYap1Info">
+            <summary>
+            The GirişYap1 item info.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.GirisYap2">
+            <summary>
+            The GirisYap2 item.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.GirisYap2Info">
+            <summary>
+            The GirisYap2 item info.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.LoginEmail">
+            <summary>
+            The LoginEmail item.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.LoginEmailInfo">
+            <summary>
+            The LoginEmail item info.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.LoginPasswordInput">
+            <summary>
+            The LoginPasswordInput item.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.LoginPasswordInputInfo">
+            <summary>
+            The LoginPasswordInput item info.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.FvrtBtn1">
+            <summary>
+            The FvrtBtn1 item.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.FvrtBtn1Info">
+            <summary>
+            The FvrtBtn1 item info.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.IHeartWdFvrtBtn">
+            <summary>
+            The IHeartWdFvrtBtn item.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.IHeartWdFvrtBtnInfo">
+            <summary>
+            The IHeartWdFvrtBtn item info.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.Favorilerim">
+            <summary>
+            The Favorilerim item.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.FavorilerimInfo">
+            <summary>
+            The Favorilerim item info.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.HttpsCdnDsmcdnComTy224ProductMed">
+            <summary>
+            The HttpsCdnDsmcdnComTy224ProductMed item.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.HttpsCdnDsmcdnComTy224ProductMedInfo">
+            <summary>
+            The HttpsCdnDsmcdnComTy224ProductMed item info.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.PCardWrppr">
+            <summary>
+            The PCardWrppr item.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.PCardWrpprInfo">
+            <summary>
+            The PCardWrppr item info.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.SomeDivTag">
+            <summary>
+            The SomeDivTag item.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.SomeDivTagInfo">
+            <summary>
+            The SomeDivTag item info.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.ImageOverlay">
+            <summary>
+            The ImageOverlay item.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.ImageOverlayInfo">
+            <summary>
+            The ImageOverlay item info.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.SepeteEkle">
+            <summary>
+            The SepeteEkle item.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.SepeteEkleInfo">
+            <summary>
+            The SepeteEkle item info.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.Sepetim">
+            <summary>
+            The Sepetim item.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.SepetimInfo">
+            <summary>
+            The Sepetim item info.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.SepeteGit">
+            <summary>
+            The SepeteGit item.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.SepeteGitInfo">
+            <summary>
+            The SepeteGit item info.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.SomeSvgTag">
+            <summary>
+            The SomeSvgTag item.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.SomeSvgTagInfo">
+            <summary>
+            The SomeSvgTag item info.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.IClose">
+            <summary>
+            The IClose item.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.ICloseInfo">
+            <summary>
+            The IClose item info.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.CıkışYap">
+            <summary>
+            The CıkışYap item.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.CıkışYapInfo">
+            <summary>
+            The CıkışYap item info.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.SepetiOnayla">
+            <summary>
+            The SepetiOnayla item.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.SepetiOnaylaInfo">
+            <summary>
+            The SepetiOnayla item info.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.GuıleKısaKolluTişoert2">
+            <summary>
+            The GuıleKısaKolluTişoert2 item.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.GuıleKısaKolluTişoert2Info">
+            <summary>
+            The GuıleKısaKolluTişoert2 item info.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.HttpsWwwTrendyolComGirisisProceedP">
+            <summary>
+            The HttpsWwwTrendyolComGirisisProceedP item.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.HttpsWwwTrendyolComGirisisProceedPInfo">
+            <summary>
+            The HttpsWwwTrendyolComGirisisProceedP item info.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.QButtonQButtonMediumQFluidQPrima">
+            <summary>
+            The QButtonQButtonMediumQFluidQPrima item.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.QButtonQButtonMediumQFluidQPrimaInfo">
+            <summary>
+            The QButtonQButtonMediumQFluidQPrima item info.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.Hesabım">
+            <summary>
+            The Hesabım item.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.HesabımInfo">
+            <summary>
+            The Hesabım item info.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.YardımDestek">
+            <summary>
+            The YardımDestek item.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.YardımDestekInfo">
+            <summary>
+            The YardımDestek item info.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.QuestionAnswerBox">
+            <summary>
+            The QuestionAnswerBox item.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.QuestionAnswerBoxInfo">
+            <summary>
+            The QuestionAnswerBox item info.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.PTagİadeAdımları">
+            <summary>
+            The PTagİadeAdımları item.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.PTagİadeAdımlarıInfo">
+            <summary>
+            The PTagİadeAdımları item info.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.PbBasketItem1">
+            <summary>
+            The PbBasketItem1 folder.
+            </summary>
+        </member>
+        <member name="T:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.TişoertInfoClass">
+            <summary>
+            The TişoertInfoClass folder.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.TişoertInfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            TişoertInfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.TişoertInfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.TişoertInfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="T:TrendyolTest.TrendyolTestRepositoryFolders.PbBasketItem1Folder">
+            <summary>
+            The PbBasketItem1Folder folder.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.TrendyolTestRepositoryFolders.PbBasketItem1Folder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new PbBasketItem1  folder.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.PbBasketItem1Folder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.PbBasketItem1Folder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.PbBasketItem1Folder.PbBasketItem">
+            <summary>
+            The PbBasketItem item.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.PbBasketItem1Folder.PbBasketItemInfo">
+            <summary>
+            The PbBasketItem item info.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.PbBasketItem1Folder.Text">
+            <summary>
+            The Text item.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.PbBasketItem1Folder.TextInfo">
+            <summary>
+            The Text item info.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.PbBasketItem1Folder.TyNumericCounterButton">
+            <summary>
+            The TyNumericCounterButton item.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.PbBasketItem1Folder.TyNumericCounterButtonInfo">
+            <summary>
+            The TyNumericCounterButton item info.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.PbBasketItem1Folder.Text1">
+            <summary>
+            The Text1 item.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.PbBasketItem1Folder.Text1Info">
+            <summary>
+            The Text1 item info.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.PbBasketItem1Folder.ITrash">
+            <summary>
+            The ITrash item.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.PbBasketItem1Folder.ITrashInfo">
+            <summary>
+            The ITrash item info.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.PbBasketItem1Folder.ButtonTagSil">
+            <summary>
+            The ButtonTagSil item.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.PbBasketItem1Folder.ButtonTagSilInfo">
+            <summary>
+            The ButtonTagSil item info.
+            </summary>
+        </member>
+        <member name="T:TrendyolTest.TrendyolTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsAppFolder">
+            <summary>
+            The HttpsWwwTrendyolComUyelikcbEqhttpsAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.TrendyolTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new HttpsWwwTrendyolComUyelikcbEqhttps  folder.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.TrendyolTestRepositoryFolders.HttpsWwwTrendyolComUyelikcbEqhttpsAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:TrendyolTest.UrunSayfasinaGit">
+             <summary>
+            The UrunSayfasinaGit recording.
+             </summary>
+        </member>
+        <member name="F:TrendyolTest.UrunSayfasinaGit.repo">
+            <summary>
+            Holds an instance of the TrendyolTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.UrunSayfasinaGit.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.UrunSayfasinaGit.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TrendyolTest.UrunSayfasinaGit.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.UrunSayfasinaGit.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TrendyolTest.UrunSayfasinaGit.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.UrunSayfasinaGit.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:TrendyolTest.UrunSayisininArtirildiginiDogrula">
+             <summary>
+            The UrunSayisininArtirildiginiDogrula recording.
+             </summary>
+        </member>
+        <member name="F:TrendyolTest.UrunSayisininArtirildiginiDogrula.repo">
+            <summary>
+            Holds an instance of the TrendyolTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.UrunSayisininArtirildiginiDogrula.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.UrunSayisininArtirildiginiDogrula.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TrendyolTest.UrunSayisininArtirildiginiDogrula.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.UrunSayisininArtirildiginiDogrula.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TrendyolTest.UrunSayisininArtirildiginiDogrula.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.UrunSayisininArtirildiginiDogrula.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:TrendyolTest.UrunTikla">
+             <summary>
+            The UrunTikla recording.
+             </summary>
+        </member>
+        <member name="F:TrendyolTest.UrunTikla.repo">
+            <summary>
+            Holds an instance of the TrendyolTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.UrunTikla.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.UrunTikla.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TrendyolTest.UrunTikla.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.UrunTikla.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TrendyolTest.UrunTikla.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.UrunTikla.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:TrendyolTest.UrunuFavoriyeEkle">
+             <summary>
+            The UrunuFavoriyeEkle recording.
+             </summary>
+        </member>
+        <member name="F:TrendyolTest.UrunuFavoriyeEkle.repo">
+            <summary>
+            Holds an instance of the TrendyolTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.UrunuFavoriyeEkle.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.UrunuFavoriyeEkle.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TrendyolTest.UrunuFavoriyeEkle.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.UrunuFavoriyeEkle.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TrendyolTest.UrunuFavoriyeEkle.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.UrunuFavoriyeEkle.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:TrendyolTest.UserClicksOnUyeOl">
+             <summary>
+            The UserClicksOnUyeOl recording.
+             </summary>
+        </member>
+        <member name="F:TrendyolTest.UserClicksOnUyeOl.repo">
+            <summary>
+            Holds an instance of the TrendyolTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.UserClicksOnUyeOl.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.UserClicksOnUyeOl.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TrendyolTest.UserClicksOnUyeOl.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.UserClicksOnUyeOl.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TrendyolTest.UserClicksOnUyeOl.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.UserClicksOnUyeOl.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:TrendyolTest.UyeOl">
+             <summary>
+            The UyeOl recording.
+             </summary>
+        </member>
+        <member name="F:TrendyolTest.UyeOl.repo">
+            <summary>
+            Holds an instance of the TrendyolTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.UyeOl.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.UyeOl.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TrendyolTest.UyeOl.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.UyeOl.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TrendyolTest.UyeOl.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.UyeOl.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:TrendyolTest.UyeOlSub">
+             <summary>
+            The UyeOlSub recording.
+             </summary>
+        </member>
+        <member name="F:TrendyolTest.UyeOlSub.repo">
+            <summary>
+            Holds an instance of the TrendyolTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.UyeOlSub.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.UyeOlSub.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TrendyolTest.UyeOlSub.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TrendyolTest.UyeOlSub.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TrendyolTest.UyeOlSub.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TrendyolTest.UyeOlSub.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

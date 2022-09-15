@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="6.61s"
+		durationms="6607"
+		type="root"
+		rid="121e63de0f3ac4f2"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="user"
+		rxversion="10.2.4.0"
+		host="DESKTOP-UK4GL4A"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="14.09.2022 20:55:27"
+		timestampiso="2022-09-14T17:55:27"
+		endtime="14.09.2022 20:55:34"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="ErkekButton">
+		<detail>
+			ErkekButton
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.461"
+			timeRelativeToTestModuleStartTime="00:05.461"
+			timeWallClock="20:55:33"
+			time="00:05.461"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.ErkekButton' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'login-register']//form[@action='https://www.trendyol.com/uyelik?cb=https%3A%2F%2Fwww.trendyol.com%2F']/div[3]/div/button[2]"
+				itempath=".//div[#'login-register']//form[@action='https://www.trendyol.com/uyelik?cb=https%3A%2F%2Fwww.trendyol.com%2F']/div[3]/div/button[2]"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.ErkekButton"
+				id="62376f9741a54a0b9d91644bcf8549af"
+				timeout="60000"
+				codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\ErkekButton.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.506"
+			timeRelativeToTestModuleStartTime="00:06.506"
+			timeWallClock="20:55:34"
+			time="00:06.506"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeContains (Class&gt;'active') on item 'ApplicationUnderTest.ErkekButton'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'login-register']//form[@action='https://www.trendyol.com/uyelik?cb=https%3A%2F%2Fwww.trendyol.com%2F']/div[3]/div/button[2]"
+				itempath=".//div[#'login-register']//form[@action='https://www.trendyol.com/uyelik?cb=https%3A%2F%2Fwww.trendyol.com%2F']/div[3]/div/button[2]"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.ErkekButton"
+				id="62376f9741a54a0b9d91644bcf8549af"
+				timeout="60000"
+				codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\ErkekButton.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.606"
+			timeRelativeToTestModuleStartTime="00:06.606"
+			timeWallClock="20:55:34"
+			time="00:06.606"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Class' of element for item 'TrendyolTestRepository.ApplicationUnderTest.ErkekButton' does contain the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'login-register']//form[@action='https://www.trendyol.com/uyelik?cb=https%3A%2F%2Fwww.trendyol.com%2F']/div[3]/div/button[2]"
+				itempath=".//div[#'login-register']//form[@action='https://www.trendyol.com/uyelik?cb=https%3A%2F%2Fwww.trendyol.com%2F']/div[3]/div/button[2]"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.ErkekButton"
+				id="62376f9741a54a0b9d91644bcf8549af"
+				timeout="60000"
+				codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\ErkekButton.cs"
+				codeline="87"
+				loglvl="Success"
+				itemindex="1">
+			</metainfo>
+		</item>
+	</activity>
+</report>

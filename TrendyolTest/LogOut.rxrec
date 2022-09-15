@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="46e79c1b-f707-485d-b6e9-8b73463fc25d"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="LogOut"
+	namespace="TrendyolTest">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Move"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="10;9"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="5e5b8309-fb10-4ff2-a4b5-283e0a13b009"
+		sx="1353"
+		sy="154"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="44fcac06-c294-4cf5-b469-577f85c88cad"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, ptag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="ptag"
+				rect="1343,145,67,22"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						link-text
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Hesabım
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						link-text
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						p
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']//p[@innertext='Hesabım']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="4212bc26-838b-472c-adcb-173cbf7d2792">
+				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
+			</helperscreenshot>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="ef05b29c-0b3a-456f-a54a-7de5471c864b"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+				Basarılı sekilde cıkıs yapıldı
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="07eb633c-e91f-4a96-87c9-ea0d9930f3f3"
+			sourcename="RepositoryEditor">
+				<path>
+					/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']//p[@innertext='Çıkış Yap']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="54f6c10d-9aab-41cf-922a-ad1785b30a0c"
+	name="TrendyolTestRepository"
+	relativepath="TrendyolTestRepository.rxrep">
+		<codegen
+		classname="TrendyolTestRepository"
+		namespace="TrendyolTest">
+		</codegen>
+		<rootfolder
+		id="9fb9b44c-a0d9-4454-a26c-fa4f04e128ac"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		LogOut.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

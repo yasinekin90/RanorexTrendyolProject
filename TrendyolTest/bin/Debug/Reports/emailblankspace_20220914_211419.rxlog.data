@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="9.03s"
+		durationms="9029"
+		type="root"
+		rid="25e8c2fbfacbdb08"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="user"
+		rxversion="10.2.4.0"
+		host="DESKTOP-UK4GL4A"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="14.09.2022 21:14:20"
+		timestampiso="2022-09-14T18:14:20"
+		endtime="14.09.2022 21:14:29"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="emailblankspace">
+		<detail>
+			emailblankspace
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.016"
+			timeRelativeToTestModuleStartTime="00:06.016"
+			timeWallClock="21:14:26"
+			time="00:06.016"
+			level="Info"
+			category="Keyboard">
+			<message>
+				e posta alanına bosluk karakteri girildi<br/>Key sequence '          ' with focus on 'ApplicationUnderTest'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']"
+				itempath="/dom[@domain='www.trendyol.com']"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.Self"
+				id="fd0bea56266d4f5ebbefe1c1c79b767d"
+				timeout="30000"
+				codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\emailblankspace.cs"
+				codeline="83"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.019"
+			timeRelativeToTestModuleStartTime="00:08.019"
+			timeWallClock="21:14:28"
+			time="00:08.019"
+			level="Info"
+			category="Mouse">
+			<message>
+				Uye ol butonuna basıldı<br/>Mouse Left Click item 'ApplicationUnderTest.UyeOl2' at 279;37.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'login-register']//form[@action='https://www.trendyol.com/uyelik?cb=https%3A%2F%2Fwww.trendyol.com%2F']/button"
+				itempath=".//div[#'login-register']//form[@action='https://www.trendyol.com/uyelik?cb=https%3A%2F%2Fwww.trendyol.com%2F']/button"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.UyeOl2"
+				id="0840ce5f13eb4eecba00b421b6aa76b4"
+				timeout="60000"
+				codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\emailblankspace.cs"
+				codeline="89"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.560"
+			timeRelativeToTestModuleStartTime="00:08.560"
+			timeWallClock="21:14:29"
+			time="00:08.560"
+			level="Info"
+			category="Mouse">
+			<message>
+				Hata cıktıgı dogrulandı<br/>Mouse Left Click item 'ApplicationUnderTest.ErrorBoxWrapper' at 247;31.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'error-box-wrapper']"
+				itempath=".//div[#'error-box-wrapper']"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.ErrorBoxWrapper"
+				id="c67d889defb8435fa70936c5b4a598a7"
+				timeout="60000"
+				codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\emailblankspace.cs"
+				codeline="94"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

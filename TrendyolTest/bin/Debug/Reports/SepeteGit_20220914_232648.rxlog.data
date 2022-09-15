@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="7.82s"
+		durationms="7815"
+		type="root"
+		rid="f84eaf9d1d60b5b"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="user"
+		rxversion="10.2.4.0"
+		host="DESKTOP-UK4GL4A"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="14.09.2022 23:26:50"
+		timestampiso="2022-09-14T20:26:50"
+		endtime="14.09.2022 23:26:58"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="SepeteGit">
+		<detail>
+			SepeteGit
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.466"
+			timeRelativeToTestModuleStartTime="00:05.466"
+			timeWallClock="23:26:55"
+			time="00:05.466"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Move item 'ApplicationUnderTest.Sepetim' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[2]/a[@href>'https://www.trendyol.com/']/p[@innertext='Sepetim']"
+				itempath=".//div[#'account-navigation-container']/div/div[2]/a[@href>'https://www.trendyol.com/']/p[@innertext='Sepetim']"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.Sepetim"
+				id="f37714df7d4c4d51adf2ef663ae4edbe"
+				timeout="60000"
+				codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\SepeteGit.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

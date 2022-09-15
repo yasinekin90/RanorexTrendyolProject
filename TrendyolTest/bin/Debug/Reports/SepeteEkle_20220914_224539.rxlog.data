@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="18.68s"
+		durationms="18675"
+		type="root"
+		rid="11d3ede8b6d9dbc8"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="user"
+		rxversion="10.2.4.0"
+		host="DESKTOP-UK4GL4A"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="14.09.2022 22:45:41"
+		timestampiso="2022-09-14T19:45:41"
+		endtime="14.09.2022 22:45:59"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="SepeteEkle">
+		<detail>
+			SepeteEkle
+		</detail>
+		<errormessage>
+			Element is not visible in the UI and thus click can't be perfomed.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.995"
+			timeRelativeToTestModuleStartTime="00:05.995"
+			timeWallClock="22:45:47"
+			time="00:05.995"
+			level="Info"
+			category="Mouse"
+			errimg="images_SepeteEk_c8b63f32\SepeteEk_c8b63f32_308057d6_trace.jpg"
+			errthumb="images_SepeteEk_c8b63f32\SepeteEk_c8b63f32_308057d6_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.SepeteEkle' at 210;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[text()='Sepete Ekle']"
+				itempath=".//div[text()='Sepete Ekle']"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.SepeteEkle"
+				id="0037a1a2d00d4d9f90bf90437dc64813"
+				timeout="60000"
+				codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\SepeteEkle.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.352"
+			timeRelativeToTestModuleStartTime="00:18.352"
+			timeWallClock="22:45:59"
+			time="00:18.352"
+			level="Warn"
+			category="Click"
+			errimg="images_SepeteEk_c8b63f32\SepeteEk_c24f4f9c_rxlog.jpg"
+			errthumb="images_SepeteEk_c8b63f32\SepeteEk_c24f4f9c_rxlog_thumb.jpg">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>
+			</message>
+			<metainfo
+				codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\SepeteEkle.cs"
+				codeline="83"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.552"
+			timeRelativeToTestModuleStartTime="00:18.552"
+			timeWallClock="22:45:59"
+			time="00:18.552"
+			level="Error"
+			category="Module"
+			errimg="images_SepeteEk_c8b63f32\SepeteEk_c8b63f32_a5ffc0c2_trace.jpg"
+			errthumb="images_SepeteEk_c8b63f32\SepeteEk_c8b63f32_a5ffc0c2_trace_thumb.jpg">
+			<message>
+				Element is not visible in the UI and thus click can't be perfomed.
+			</message>
+			<metainfo
+				stacktrace="   konum: Ranorex.Adapter.Click(MouseButtons buttons, Location location, Int32 times, Duration moveTime, Boolean showOutOfBoundsWarning)
+   konum: Ranorex.Adapter.Click(Location location)
+   konum: TrendyolTest.SepeteEkle.Ranorex.Core.Testing.ITestModule.Run() c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\SepeteEkle.cs içinde: satır 83
+   konum: Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\SepeteEkle.cs içinde"
+				codeline="83"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

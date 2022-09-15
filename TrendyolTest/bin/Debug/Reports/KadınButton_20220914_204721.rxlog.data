@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="9.06s"
+		durationms="9055"
+		type="root"
+		rid="1b8268e1d6f2b280"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="user"
+		rxversion="10.2.4.0"
+		host="DESKTOP-UK4GL4A"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="14.09.2022 20:47:23"
+		timestampiso="2022-09-14T17:47:23"
+		endtime="14.09.2022 20:47:32"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="KadınVeErkekButtons">
+		<detail>
+			KadınVeErkekButtons
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.563"
+			timeRelativeToTestModuleStartTime="00:06.563"
+			timeWallClock="20:47:30"
+			time="00:06.563"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.Kadın' at 37;15.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'login-register']//form[@action='https://www.trendyol.com/uyelik?cb=https%3A%2F%2Fwww.trendyol.com%2F']/div[3]/div/button[1]/span[@innertext='Kadın']"
+				itempath=".//div[#'login-register']//form[@action='https://www.trendyol.com/uyelik?cb=https%3A%2F%2Fwww.trendyol.com%2F']/div[3]/div/button[1]/span[@innertext='Kadın']"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.Kadın"
+				id="f857e369d4be49979a2c023f36cff185"
+				timeout="60000"
+				codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\KadınButton.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.472"
+			timeRelativeToTestModuleStartTime="00:08.472"
+			timeWallClock="20:47:32"
+			time="00:08.472"
+			level="Warn"
+			category="Click"
+			errimg="images_KadınBut_2d5de1d5\KadınBut_8eb58f77_rxlog.jpg"
+			errthumb="images_KadınBut_2d5de1d5\KadınBut_8eb58f77_rxlog_thumb.jpg">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>
+			</message>
+			<metainfo
+				codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\KadınButton.cs"
+				codeline="83"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+	</activity>
+</report>

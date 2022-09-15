@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="1.3m"
+		durationms="79316"
+		type="root"
+		rid="2c0c9c3e9da2b7d0"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="user"
+		rxversion="10.2.4.0"
+		host="DESKTOP-UK4GL4A"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="14.09.2022 20:49:21"
+		timestampiso="2022-09-14T17:49:21"
+		endtime="14.09.2022 20:50:40"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="KadınVeErkekButtons">
+		<detail>
+			KadınVeErkekButtons
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.941"
+			timeRelativeToTestModuleStartTime="00:07.941"
+			timeWallClock="20:49:29"
+			time="00:07.941"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.Kadın' at 37;15.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'login-register']/div[3]/div/button[1]/span[@innertext='Kadın']"
+				itempath=".//div[#'login-register']/div[3]/div/button[1]/span[@innertext='Kadın']"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.Kadın"
+				id="f857e369d4be49979a2c023f36cff185"
+				timeout="60000"
+				codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\KadınButton.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:18.199"
+			timeRelativeToTestModuleStartTime="01:18.199"
+			timeWallClock="20:50:39"
+			time="01:18.199"
+			level="Info"
+			category="User">
+			<message>
+				Item 'Kadın' was found using Robust path.
+			</message>
+			<metainfo
+				codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\KadınButton.cs"
+				codeline="83"
+				loglvl="Info"
+				itemindex="0">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:18.787"
+			timeRelativeToTestModuleStartTime="01:18.787"
+			timeWallClock="20:50:40"
+			time="01:18.787"
+			level="Warn"
+			category="Click"
+			errimg="images_KadınBut_429a869f\KadınBut_a41232a1_rxlog.jpg"
+			errthumb="images_KadınBut_429a869f\KadınBut_a41232a1_rxlog_thumb.jpg">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>
+			</message>
+			<metainfo
+				codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\KadınButton.cs"
+				codeline="83"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+	</activity>
+</report>

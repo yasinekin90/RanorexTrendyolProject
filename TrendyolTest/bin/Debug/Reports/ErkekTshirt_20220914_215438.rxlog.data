@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="11.86s"
+		durationms="11863"
+		type="root"
+		rid="e5e4145f2bd87d6"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="user"
+		rxversion="10.2.4.0"
+		host="DESKTOP-UK4GL4A"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="14.09.2022 21:54:40"
+		timestampiso="2022-09-14T18:54:40"
+		endtime="14.09.2022 21:54:52"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="ErkekTshirt">
+		<detail>
+			ErkekTshirt
+		</detail>
+		<errormessage>
+			Item 'TrendyolTestRepository.ApplicationUnderTest.Tişoert' is no ATag.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.254"
+			timeRelativeToTestModuleStartTime="00:05.254"
+			timeWallClock="21:54:45"
+			time="00:05.254"
+			level="Info"
+			category="Touch gestures"
+			errimg="images_ErkekTsh_6d060279\ErkekTsh_6d060279_dee9fc64_trace.jpg"
+			errthumb="images_ErkekTsh_6d060279\ErkekTsh_6d060279_dee9fc64_trace_thumb.jpg">
+			<message>
+				Swipe gesture with direction 'Up (270°)' starting from 'Center' with distance '.5' with swipe duration'500ms' and step count '0' on item 'ApplicationUnderTest.Tişoert'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'navigation-wrapper']/nav/ul/li[2]/div/div/div/div[1]/div/ul/li[1]/a[@innertext='Tişört']"
+				itempath=".//div[#'navigation-wrapper']/nav/ul/li[2]/div/div/div/div[1]/div/ul/li[1]/a[@innertext='Tişört']"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.Tişoert"
+				id="b3222690c51e4fc89d5dde70ac7b6855"
+				timeout="60000"
+				codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\ErkekTshirt.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.227"
+			timeRelativeToTestModuleStartTime="00:08.227"
+			timeWallClock="21:54:48"
+			time="00:08.227"
+			level="Info"
+			category="Mouse"
+			errimg="images_ErkekTsh_6d060279\ErkekTsh_6d060279_c2646e83_trace.jpg"
+			errthumb="images_ErkekTsh_6d060279\ErkekTsh_6d060279_c2646e83_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.Tişoert' at 26;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'navigation-wrapper']/nav/ul/li[2]/div/div/div/div[1]/div/ul/li[1]/a[@innertext='Tişört']"
+				itempath=".//div[#'navigation-wrapper']/nav/ul/li[2]/div/div/div/div[1]/div/ul/li[1]/a[@innertext='Tişört']"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.Tişoert"
+				id="b3222690c51e4fc89d5dde70ac7b6855"
+				timeout="60000"
+				codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\ErkekTshirt.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.708"
+			timeRelativeToTestModuleStartTime="00:11.708"
+			timeWallClock="21:54:52"
+			time="00:11.708"
+			level="Error"
+			category="Module"
+			errimg="images_ErkekTsh_6d060279\ErkekTsh_6d060279_530344f3_trace.jpg"
+			errthumb="images_ErkekTsh_6d060279\ErkekTsh_6d060279_530344f3_trace_thumb.jpg">
+			<message>
+				Item 'TrendyolTestRepository.ApplicationUnderTest.Tişoert' is no ATag.<br/>The element does not support the required capability 'atag'.
+			</message>
+			<metainfo
+				stacktrace="   konum: Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   konum: Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass81_0`1.&lt;Find>b__0()&#13;&#10;   konum: Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   konum: Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   konum: Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   konum: Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   konum: TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.get_Tişoert() c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\TrendyolTestRepository.cs içinde: satır 445&#13;&#10;   konum: TrendyolTest.ErkekTshirt.Ranorex.Core.Testing.ITestModule.Run() c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\ErkekTshirt.cs içinde: satır 87&#13;&#10;   konum: Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\ErkekTshirt.cs içinde"
+				codeline="87"
+				loglvl="Error"
+				id="b3222690c51e4fc89d5dde70ac7b6855"
+				path="/dom[@domain='www.trendyol.com']//div[#'navigation-wrapper']/nav/ul/li[2]/div/div/div/div[1]/div/ul/li[1]/a[@innertext='Tişört']"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.Tişoert"
+				itemindex="1">
+			</metainfo>
+		</item>
+	</activity>
+</report>

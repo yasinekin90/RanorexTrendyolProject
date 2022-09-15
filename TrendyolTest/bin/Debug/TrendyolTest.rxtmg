@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="10.2">
+	<testsuiteentryhierarchy>
+		<flatlistofchildren>
+			<testmodule
+			id="3559effe-ae51-4356-83a4-b6047db6c704"
+			name="sifregir"
+			ref="7e075518-cb51-432b-85a4-ced51ffb7822"
+			type="Recording">
+			</testmodule>
+			<modulegroupdef
+			id="47e9921e-9234-491c-a723-36311879d8a4"
+			name="ModuleGroup">
+			</modulegroupdef>
+			<modulegroups
+			id="ad2f73c5-a7ae-4fb3-b67e-a0babc84f4e0"
+			name="TrendyolTest">
+			</modulegroups>
+		</flatlistofchildren>
+		<childhierarchy>
+			<modulegroups
+			id="ad2f73c5-a7ae-4fb3-b67e-a0babc84f4e0"
+			name="TrendyolTest">
+				<modulegroupdef
+				id="47e9921e-9234-491c-a723-36311879d8a4"
+				name="ModuleGroup">
+					<testmodule
+					id="3559effe-ae51-4356-83a4-b6047db6c704"
+					name="sifregir">
+					</testmodule>
+				</modulegroupdef>
+			</modulegroups>
+		</childhierarchy>
+	</testsuiteentryhierarchy>
+</modulegroupdoc>

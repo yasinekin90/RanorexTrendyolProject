@@ -1,0 +1,455 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="22.92s"
+		durationms="22916"
+		type="root"
+		rid="e824a15e5a74e4"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="1"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="user"
+		rxversion="10.2.4.0"
+		host="DESKTOP-UK4GL4A"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="14.09.2022 23:35:18"
+		timestampiso="2022-09-14T20:35:18"
+		endtime="14.09.2022 23:35:41"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="17.79s"
+			durationms="17790"
+			type="test-suite"
+			rid="2f87b65a799421dd"
+			totalerrorcount="1"
+			totalwarningcount="1"
+			totalsuccesstestcasecount="0"
+			totalfailedtestcasecount="1"
+			totalblockedtestcasecount="0"
+			childsuccesscount="0"
+			childfailedcount="1"
+			childblockedcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			totalmaintenancemodecount="0"
+			testsuitename="TrendyolTest"
+			headertext="TrendyolTest"
+			runconfigname="TestRun"
+			runlabel="">
+			<params>
+			</params>
+			<activity
+				result="Failed"
+				duration="17.77s"
+				durationms="17766"
+				type="test-case"
+				rid="14828823f79da540"
+				totalerrorcount="1"
+				totalwarningcount="1"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="1"
+				totalblockedtestcasecount="0"
+				childsuccesscount="3"
+				childfailedcount="1"
+				childblockedcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				testcontainername="TC004-Verify_that_the_user_can_add_to_cart_one_or_more_products."
+				testcontainerid="cb0de53c-b6bb-4301-b918-6c7fd4f0f878"
+				headertext="TC004-Verify_that_the_user_can_add_to_cart_one_or_more_products."
+				displayName="TC004-Verify_that_the_user_can_add_to_cart_one_or_more_products."
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+				<activity
+					result="Success"
+					duration="666ms"
+					durationms="666"
+					type="test-module"
+					rid="19cb8e8c982f2315"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="UrunSayfasinaGit"
+					displayName="UrunSayfasinaGit"
+					moduleid="6f5963bf-a6e1-442c-93d6-b408d5360496"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.060"
+						timeRelativeToTestModuleStartTime="00:00.014"
+						timeWallClock="23:35:24"
+						time="00:00.060"
+						level="Info"
+						category="Website">
+						<message>
+							Opening web site 'https://www.trendyol.com/erkek-t-shirt-x-g2-c73' with browser 'Chrome' in maximized mode.
+						</message>
+						<metainfo
+							itemindex="0"
+							codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\UrunSayfasinaGit.cs"
+							codeline="82"
+							loglvl="Info">
+						</metainfo>
+					</item>
+				</activity>
+				<activity
+					result="Success"
+					duration="10.83s"
+					durationms="10827"
+					type="test-module"
+					rid="8c0dad83ce5c4c9"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="UrunTikla"
+					displayName="UrunTikla"
+					moduleid="489481e7-767a-4bf4-96fd-a40e2b077643"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.718"
+						timeRelativeToTestModuleStartTime="00:00.002"
+						timeWallClock="23:35:24"
+						time="00:00.718"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse scroll Vertical by 120 units.
+						</message>
+						<metainfo
+							itemindex="0"
+							codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\UrunTikla.cs"
+							codeline="82"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:01.076"
+						timeRelativeToTestModuleStartTime="00:00.360"
+						timeWallClock="23:35:25"
+						time="00:01.076"
+						level="Info"
+						category="Wait">
+						<message>
+							Waiting 2s to exist. Associated repository item: 'ApplicationUnderTest.GuıleKısaKolluTişoert1'
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='www.trendyol.com']//div[#'search-app']/div/div[1]/div[2]/div[5]/div/div[3]/?/?/a[@href>'https://www.trendyol.com/']/div[2]/div[1]//span[@title='Guıle Kısa Kollu Tişört']"
+							itempath=".//div[#'search-app']/div/div[1]/div[2]/div[5]/div/div[3]/?/?/a[@href>'https://www.trendyol.com/']/div[2]/div[1]//span[@title='Guıle Kısa Kollu Tişört']"
+							fullname="TrendyolTestRepository.ApplicationUnderTest.GuıleKısaKolluTişoert1"
+							id="73069b547eb44395ae327e4787ddbbdb"
+							timeout="2000"
+							codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\UrunTikla.cs"
+							codeline="86"
+							itemindex="1"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:03.436"
+						timeRelativeToTestModuleStartTime="00:02.720"
+						timeWallClock="23:35:27"
+						time="00:03.436"
+						level="Info"
+						category="User">
+						<message>
+							Item 'GuıleKısaKolluTişoert1' was found using Robust path.
+						</message>
+						<metainfo
+							codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\UrunTikla.cs"
+							codeline="87"
+							loglvl="Info"
+							itemindex="1">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:03.854"
+						timeRelativeToTestModuleStartTime="00:03.138"
+						timeWallClock="23:35:27"
+						time="00:03.854"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'ApplicationUnderTest.GuıleKısaKolluTişoert1' at Center.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='www.trendyol.com']//div[#'search-app']/div/div[1]/div[2]/div[5]/div/div[3]/?/?/a[@href>'https://www.trendyol.com/']/div[2]/div[1]//span[@title='Guıle Kısa Kollu Tişört']"
+							itempath=".//div[#'search-app']/div/div[1]/div[2]/div[5]/div/div[3]/?/?/a[@href>'https://www.trendyol.com/']/div[2]/div[1]//span[@title='Guıle Kısa Kollu Tişört']"
+							fullname="TrendyolTestRepository.ApplicationUnderTest.GuıleKısaKolluTişoert1"
+							id="73069b547eb44395ae327e4787ddbbdb"
+							timeout="60000"
+							codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\UrunTikla.cs"
+							codeline="89"
+							itemindex="2"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:10.824"
+						timeRelativeToTestModuleStartTime="00:10.108"
+						timeWallClock="23:35:34"
+						time="00:10.824"
+						level="Info"
+						category="User">
+						<message>
+							Item 'GuıleKısaKolluTişoert1' was found using Robust path.
+						</message>
+						<metainfo
+							codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\UrunTikla.cs"
+							codeline="90"
+							loglvl="Info"
+							itemindex="2">
+						</metainfo>
+					</item>
+				</activity>
+				<activity
+					result="Success"
+					duration="4.33s"
+					durationms="4334"
+					type="test-module"
+					rid="718dd8cc20ffa1"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="SepeteEkle"
+					displayName="SepeteEkle"
+					moduleid="80202612-3a63-49ba-98fb-0db035715c0b"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:11.545"
+						timeRelativeToTestModuleStartTime="00:00.000"
+						timeWallClock="23:35:35"
+						time="00:11.545"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'ApplicationUnderTest.AddToBasket' at Center.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='www.trendyol.com']//main[#'product-detail-app']/div/div[2]/div[1]/div[2]/div[2]/div[7]/button"
+							itempath=".//main[#'product-detail-app']/div/div[2]/div[1]/div[2]/div[2]/div[7]/button"
+							fullname="TrendyolTestRepository.ApplicationUnderTest.AddToBasket"
+							id="16be9416737a4a729b3dcc1b39749ff4"
+							timeout="60000"
+							codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\SepeteEkle.cs"
+							codeline="82"
+							itemindex="0"
+							loglvl="Info">
+						</metainfo>
+					</item>
+				</activity>
+				<activity
+					result="Failed"
+					duration="1.91s"
+					durationms="1908"
+					type="test-module"
+					rid="b6024d036868620"
+					totalerrorcount="1"
+					totalwarningcount="1"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="SepeteGit"
+					displayName="SepeteGit"
+					moduleid="db03bdc1-2d12-44e5-9c06-f0f69c7c184d"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<errormessage>
+						Element is not visible in the UI and thus click can't be perfomed.
+					</errormessage>
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:15.880"
+						timeRelativeToTestModuleStartTime="00:00.001"
+						timeWallClock="23:35:39"
+						time="00:15.880"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Move item 'ApplicationUnderTest.Sepetim' at Center.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[2]/a[@href>'https://www.trendyol.com/']/p[@innertext='Sepetim']"
+							itempath=".//div[#'account-navigation-container']/div/div[2]/a[@href>'https://www.trendyol.com/']/p[@innertext='Sepetim']"
+							fullname="TrendyolTestRepository.ApplicationUnderTest.Sepetim"
+							id="f37714df7d4c4d51adf2ef663ae4edbe"
+							timeout="60000"
+							codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\SepeteGit.cs"
+							codeline="82"
+							itemindex="0"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:17.089"
+						timeRelativeToTestModuleStartTime="00:01.209"
+						timeWallClock="23:35:41"
+						time="00:17.089"
+						level="Info"
+						category="Wait"
+						errimg="images_Trendyol_9c4cc1b8\Trendyol_9c4cc1b8_fa42bb7b_trace.jpg"
+						errthumb="images_Trendyol_9c4cc1b8\Trendyol_9c4cc1b8_fa42bb7b_trace_thumb.jpg">
+						<message>
+							Waiting 2s to exist. Associated repository item: 'ApplicationUnderTest.SepeteGit'
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[2]/div//a[@innertext='Sepete Git']"
+							itempath=".//div[#'account-navigation-container']/div/div[2]/div//a[@innertext='Sepete Git']"
+							fullname="TrendyolTestRepository.ApplicationUnderTest.SepeteGit"
+							id="d9a8a3311178482c93f34306c21633a6"
+							timeout="2000"
+							codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\SepeteGit.cs"
+							codeline="86"
+							itemindex="1"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:17.311"
+						timeRelativeToTestModuleStartTime="00:01.431"
+						timeWallClock="23:35:41"
+						time="00:17.311"
+						level="Info"
+						category="Mouse"
+						errimg="images_Trendyol_9c4cc1b8\Trendyol_9c4cc1b8_7fc5a3f9_trace.jpg"
+						errthumb="images_Trendyol_9c4cc1b8\Trendyol_9c4cc1b8_7fc5a3f9_trace_thumb.jpg">
+						<message>
+							Mouse Left Click item 'ApplicationUnderTest.SepeteGit' at 126;22.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[2]/div//a[@innertext='Sepete Git']"
+							itempath=".//div[#'account-navigation-container']/div/div[2]/div//a[@innertext='Sepete Git']"
+							fullname="TrendyolTestRepository.ApplicationUnderTest.SepeteGit"
+							id="d9a8a3311178482c93f34306c21633a6"
+							timeout="60000"
+							codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\SepeteGit.cs"
+							codeline="89"
+							itemindex="2"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:17.552"
+						timeRelativeToTestModuleStartTime="00:01.672"
+						timeWallClock="23:35:41"
+						time="00:17.552"
+						level="Warn"
+						category="Click">
+						<message>
+							The mouse action was performed outside the boundaries of the assigned UI element.<br/>(null)
+						</message>
+						<metainfo
+							codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\SepeteGit.cs"
+							codeline="90"
+							loglvl="Warn">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:17.674"
+						timeRelativeToTestModuleStartTime="00:01.794"
+						timeWallClock="23:35:41"
+						time="00:17.674"
+						level="Error"
+						category="Module"
+						errimg="images_Trendyol_9c4cc1b8\Trendyol_9c4cc1b8_4b3d634e_trace.jpg"
+						errthumb="images_Trendyol_9c4cc1b8\Trendyol_9c4cc1b8_4b3d634e_trace_thumb.jpg">
+						<message>
+							Element is not visible in the UI and thus click can't be perfomed.
+						</message>
+						<metainfo
+							stacktrace="   konum: Ranorex.Adapter.Click(MouseButtons buttons, Location location, Int32 times, Duration moveTime, Boolean showOutOfBoundsWarning)
+   konum: Ranorex.Adapter.Click(Location location)
+   konum: TrendyolTest.SepeteGit.Ranorex.Core.Testing.ITestModule.Run() c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\SepeteGit.cs içinde: satır 90
+   konum: Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+							codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\SepeteGit.cs içinde"
+							codeline="90"
+							loglvl="Error">
+						</metainfo>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

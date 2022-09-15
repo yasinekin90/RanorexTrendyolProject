@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="e3e138c6-9a45-4592-9622-9ea9909a1f37"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="UserClicksOnUyeOl"
+	namespace="TrendyolTest">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="54f6c10d-9aab-41cf-922a-ad1785b30a0c"
+	name="TrendyolTestRepository"
+	relativepath="TrendyolTestRepository.rxrep">
+		<codegen
+		classname="TrendyolTestRepository"
+		namespace="TrendyolTest">
+		</codegen>
+		<rootfolder
+		id="9fb9b44c-a0d9-4454-a26c-fa4f04e128ac"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		UserClicksOnUyeOl.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

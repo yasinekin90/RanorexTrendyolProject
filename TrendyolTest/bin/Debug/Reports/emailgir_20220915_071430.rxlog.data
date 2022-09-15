@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="26.65s"
+		durationms="26653"
+		type="root"
+		rid="2c1811ab3de9ac8"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="user"
+		rxversion="10.2.4.0"
+		host="DESKTOP-UK4GL4A"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="15.09.2022 07:14:32"
+		timestampiso="2022-09-15T04:14:32"
+		endtime="15.09.2022 07:14:58"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="emailgir">
+		<detail>
+			emailgir
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.163"
+			timeRelativeToTestModuleStartTime="00:08.163"
+			timeWallClock="07:14:40"
+			time="00:08.163"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Move item 'ApplicationUnderTest.RegisterEmail' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//input[#'register-email']"
+				itempath=".//input[#'register-email']"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.RegisterEmail"
+				id="0c760dabd4f64bf6947e9194aba02261"
+				timeout="60000"
+				codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\emailgir.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:26.653"
+			timeRelativeToTestModuleStartTime="00:26.653"
+			timeWallClock="07:14:58"
+			time="00:26.653"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

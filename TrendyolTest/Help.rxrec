@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="aebd3eff-8412-405c-ba51-712f251d156a"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Help"
+	namespace="TrendyolTest">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="38;10"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="5d3a5363-371a-474e-a784-15287cc62d2f"
+		sx="1636"
+		sy="105"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="42887824-2ee4-49f5-a35b-a5c27aecbaf4"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, atag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="atag"
+				rect="1598,95,101,20"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="draggable"
+					type="System.String">
+						True
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Yard&#305;m &amp; Destek
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						a
+					</attribute>
+					<attribute
+					name="href"
+					type="System.String">
+						https://www.trendyol.com/yardim/sorular
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='www.trendyol.com']//div[#'headerMain']//ul/?/?/a[@innertext='Yard&#305;m &amp; Destek']
+				</path>
+				<robustPath>
+					/dom[@domain='www.trendyol.com']//div[#'headerMain']//a[@innertext='Yard&#305;m &amp; Destek']
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="d35ca785-ed00-462b-9e4d-16be9b77c40d">
+				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
+9KfQAUUUUAFFFFABRRRQAUUUUAFFFFAH/9k=
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="54f6c10d-9aab-41cf-922a-ad1785b30a0c"
+	name="TrendyolTestRepository"
+	relativepath="TrendyolTestRepository.rxrep">
+		<codegen
+		classname="TrendyolTestRepository"
+		namespace="TrendyolTest">
+		</codegen>
+		<rootfolder
+		id="9fb9b44c-a0d9-4454-a26c-fa4f04e128ac"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Help.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

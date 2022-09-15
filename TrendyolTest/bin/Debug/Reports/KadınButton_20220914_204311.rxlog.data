@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="2.3m"
+		durationms="136582"
+		type="root"
+		rid="3093298f9c51002d"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="user"
+		rxversion="10.2.4.0"
+		host="DESKTOP-UK4GL4A"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="14.09.2022 20:43:13"
+		timestampiso="2022-09-14T17:43:13"
+		endtime="14.09.2022 20:45:29"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="KadınVeErkekButtons">
+		<detail>
+			KadınVeErkekButtons
+		</detail>
+		<errormessage>
+			Failed to find item 'TrendyolTestRepository.ApplicationUnderTest.KadınButton'. Please check that your whitelist allows Ranorex to access the process.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.484"
+			timeRelativeToTestModuleStartTime="00:06.484"
+			timeWallClock="20:43:19"
+			time="00:06.484"
+			level="Info"
+			category="Mouse"
+			errimg="images_KadınBut_2d5ee1d1\KadınBut_2d5ee1d1_e43d6757_trace.jpg"
+			errthumb="images_KadınBut_2d5ee1d1\KadınBut_2d5ee1d1_e43d6757_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.KadınButton' at 66;17.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//button[@text='Kadın']"
+				itempath=".//button[@text='Kadın']"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.KadınButton"
+				id="2a6f7461cbe542b79c24829e8abec63b"
+				timeout="60000"
+				codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\KadınButton.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:16.453"
+			timeRelativeToTestModuleStartTime="02:16.453"
+			timeWallClock="20:45:29"
+			time="02:16.453"
+			level="Error"
+			category="Module"
+			errimg="images_KadınBut_2d5ee1d1\KadınBut_2d5ee1d1_fb8b9d3e_trace.jpg"
+			errthumb="images_KadınBut_2d5ee1d1\KadınBut_2d5ee1d1_fb8b9d3e_trace_thumb.jpg">
+			<message>
+				Failed to find item 'TrendyolTestRepository.ApplicationUnderTest.KadınButton'. Please check that your whitelist allows Ranorex to access the process.<br/>No element found for path '/dom[@domain='www.trendyol.com']//button[@text='Kadın']' at step 'descendant-or-self::button[@text='Kadın']' after 26 attempts within 1m.
+			</message>
+			<metainfo
+				stacktrace="   konum: Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   konum: Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass81_0`1.&lt;Find>b__0()&#13;&#10;   konum: Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   konum: Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   konum: Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   konum: Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   konum: TrendyolTest.TrendyolTestRepositoryFolders.ApplicationUnderTestAppFolder.get_KadınButton() c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\TrendyolTestRepository.cs içinde: satır 291&#13;&#10;   konum: TrendyolTest.KadınVeErkekButtons.Ranorex.Core.Testing.ITestModule.Run() c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\KadınButton.cs içinde: satır 83&#13;&#10;   konum: Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\KadınButton.cs"
+				codeline="83"
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//button[@text='Kadın']"
+				itempath=".//button[@text='Kadın']"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.KadınButton"
+				id="2a6f7461cbe542b79c24829e8abec63b"
+				timeout="60000"
+				failedStep="descendant-or-self::button[@text='Kadın']"
+				bestPathPrefix="/dom[@domain='www.trendyol.com']"
+				loglvl="Error"
+				itemindex="0">
+			</metainfo>
+		</item>
+	</activity>
+</report>

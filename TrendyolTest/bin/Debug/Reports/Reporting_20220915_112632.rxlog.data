@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="22.53s"
+		durationms="22526"
+		type="root"
+		rid="28f8a0c41f4e5ab6"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="user"
+		rxversion="10.2.4.0"
+		host="DESKTOP-UK4GL4A"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="15.09.2022 11:26:34"
+		timestampiso="2022-09-15T08:26:34"
+		endtime="15.09.2022 11:26:57"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Reporting">
+		<detail>
+			Reporting
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.693"
+			timeRelativeToTestModuleStartTime="00:05.693"
+			timeWallClock="11:26:40"
+			time="00:05.693"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>class
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.714"
+			timeRelativeToTestModuleStartTime="00:05.714"
+			timeWallClock="11:26:40"
+			time="00:05.714"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.PTagİadeAdımları' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'support-gw']/div/div[2]/div[2]/div[1]//p[@innertext='• İade adımları:']"
+				itempath=".//div[#'support-gw']/div/div[2]/div[2]/div[1]//p[@innertext='• İade adımları:']"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.PTagİadeAdımları"
+				id="345d0de18547449da9893c19662e3c58"
+				timeout="60000"
+				codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\Reporting.cs"
+				codeline="95"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:22.526"
+			timeRelativeToTestModuleStartTime="00:22.526"
+			timeWallClock="11:26:57"
+			time="00:22.526"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

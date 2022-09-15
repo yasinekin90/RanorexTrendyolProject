@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="7.5s"
+		durationms="7496"
+		type="root"
+		rid="4f5eb84a09cc24c"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="user"
+		rxversion="10.2.4.0"
+		host="DESKTOP-UK4GL4A"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="14.09.2022 21:27:50"
+		timestampiso="2022-09-14T18:27:50"
+		endtime="14.09.2022 21:27:57"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="sifreblankspace">
+		<detail>
+			sifreblankspace
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:04.948"
+			timeRelativeToTestModuleStartTime="00:04.948"
+			timeWallClock="21:27:55"
+			time="00:04.948"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '       ' with focus on 'ApplicationUnderTest'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']"
+				itempath="/dom[@domain='www.trendyol.com']"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.Self"
+				id="fd0bea56266d4f5ebbefe1c1c79b767d"
+				timeout="30000"
+				codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\sifreblankspace.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.877"
+			timeRelativeToTestModuleStartTime="00:06.877"
+			timeWallClock="21:27:57"
+			time="00:06.877"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.UyeOl2' at 304;32.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'login-register']//form[@action='https://www.trendyol.com/uyelik?cb=https%3A%2F%2Fwww.trendyol.com%2F']/button"
+				itempath=".//div[#'login-register']//form[@action='https://www.trendyol.com/uyelik?cb=https%3A%2F%2Fwww.trendyol.com%2F']/button"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.UyeOl2"
+				id="0840ce5f13eb4eecba00b421b6aa76b4"
+				timeout="60000"
+				codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\sifreblankspace.cs"
+				codeline="87"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.440"
+			timeRelativeToTestModuleStartTime="00:07.440"
+			timeWallClock="21:27:57"
+			time="00:07.440"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'ApplicationUnderTest.ErrorBoxWrapper'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'error-box-wrapper']"
+				itempath=".//div[#'error-box-wrapper']"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.ErrorBoxWrapper"
+				id="c67d889defb8435fa70936c5b4a598a7"
+				timeout="60000"
+				codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\sifreblankspace.cs"
+				codeline="91"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.494"
+			timeRelativeToTestModuleStartTime="00:07.494"
+			timeWallClock="21:27:57"
+			time="00:07.494"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'ErrorBoxWrapper' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'error-box-wrapper']"
+				itempath=".//div[#'error-box-wrapper']"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.ErrorBoxWrapper"
+				id="c67d889defb8435fa70936c5b4a598a7"
+				timeout="60000"
+				codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\sifreblankspace.cs"
+				codeline="92"
+				loglvl="Success"
+				itemindex="2">
+			</metainfo>
+		</item>
+	</activity>
+</report>

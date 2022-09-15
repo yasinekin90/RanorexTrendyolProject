@@ -1,0 +1,17 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="TrendyolTest.rxtst" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="TrendyolTest.rxtst" />
+    <Element value="ErkekTshirt.rxrec" />
+    <Element value="SepeteEkle.rxrec" />
+    <Element value="SepeteGit.rxrec" />
+    <Element value="SepettekiUrunSayisiniArtir.rxrec" />
+    <Element value="UrunTikla.rxrec" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Array name="recentusercodeselections" />
+  </Properties>
+</Properties>

@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="9e3d1e13-62f9-4a9b-b3db-cc0368482a5a"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="FavorilemeGit"
+	namespace="TrendyolTest">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Move"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="f6c926d5-b629-4591-9278-99201625dc33"
+		sx="0"
+		sy="88"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="72d7f04d-6ce5-4668-8eff-2cf27ccb22bb"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, ptag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="ptag"
+				rect="0,88,0,0"
+				role="unknown"
+				snapElem=""
+				valid="False"
+				visible="False">
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						p
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/a[@href&gt;'https://www.trendyol.com/']/?/?/p[@innertext='Favorilerim']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+		</mouseitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="35;9"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="3b487ecf-8753-4ea0-a42e-9625dfb3063f"
+		sx="1515"
+		sy="127"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="72d7f04d-6ce5-4668-8eff-2cf27ccb22bb"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, ptag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="ptag"
+				rect="1480,118,86,22"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						link-text
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Favorilerim
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						link-text
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						p
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/a[@href&gt;'https://www.trendyol.com/']/?/?/p[@innertext='Favorilerim']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="d28fb245-4b18-4221-a13c-bbd290af156d">
+				/9j/4AAQSkZJRgABAQEAeAB4AAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCABGAQIDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKACiiigAooooAKKKKACiiigAooooAKKzbi+l80rGdqqcdOtIdQk8oAAb+7Vj7aJt7GRPealDZ
+yiORZCSu75QP8faoP7dtf+ec35D/ABqtDM0utW7SHJCkZx7GtqSRYk3OcD1qlJyV76Gkowp2Tjdt
+dzO/t21/55zfkP8AGj+3bX/nnN+Q/wAa0Ipo5s+W27HXin01d7MhypreH4/8AzP7dtf+ec35D/Gj
++3bX/nnN+Q/xrTop2l3Dnpfy/j/wDM/t21/55zfkP8aP7dtf+ec35D/GtJnVSoY4LHAoR1fO05wc
+H60te4c1P+T8f+AZv9u2v/POb8h/jR/btr/zzm/If41p0hdQ4TPzEZAp2fcOal/L+P8AwDN/t21/
+55zfkP8AGj+3bX/nnN+Q/wAa06zPEH/Hin/XQfyNJ8yV7l0/ZTko8u/madFFFWcoUUUUAFFFU9Uj
+c2jzRSSJJEpZdrYBx6jvQBcoqjv1GTDwC1MbAFdxbOPyoLaqASVsuP8Aaf8AwoAvUVDZTm5tIpiu
+0uucU039qLj7OZl83OMe/pnpQBYooooAyWlmMT7ZXUm92A5zgZ6UyVJ0W8QXk+LcB0O7kkjPJ9Pa
+tbyYv+eafe3fdHX1+tKYozvzGp38Nx976+tABExaJGPUqCadQAAMAYAooAKKKKACiiigDHvIjFO2
+ejHINQVuTRJMm1xx/KqK6c3m4Zxs9R1Ncc6LvodcKytqUbUZ1iDPof5Gti9z5HGM7hjP1qhP5dvr
+ltkqiLEeScD+Kr5urRhhriAj3cVtCNouIVm5OMkun+Yyd5UgxIVVmbAKHAH1JqOJ5PszMZCxifOQ
+eoqdrq0YYaeAj0LikFzZgECeDB6/OOaq2t7mSva3KRvI/lvIHIVnCg/3V6ZqhI3kwR3BupfmnkQl
+pjtIG/HGcdhWoLqzC7RPBt9N4xVSGNZobYKu6P7VKfl6Y/eY6dulNLzJd10JY543aMQ3QmJf59rg
+446cU1ncQyCNwmZiCc9Kzp9Jjmu7ZGjkVZJJvMYZ6Anb9K07S7tns4mlnh8x41MmWUZOOciiUfMc
+ZN9BAZVtx++DnzAAynNS4aOdU3uw8snk0v2iyChfOgwOQNwpTdWhOTPBnGM7xSt5jfN2IEEhEB85
+/wB4MHn2qnqpb+ztrMW2z7QT1xg1pfabMY/fwfL0+ccVn61NA9mqwyRsfMBIRgex5qWrJ6m1G7qL
+Q2KKKK2OMKKKKACmyrvidD/EpFOooAzLLUIIbC2SVmD+XjARj047D2p1xqAkt5Et4Ll3ZSqnySBk
+j1NQxWDveXCb7y2hU5TZNhTnrgYoubCaGSHybi/mDPhz5/3R69KN9w2NK1i8m1ii/uIF/Ss4zpay
+H7PPFMjy8wt98EnnH4+ta1M8mLzfN8tPM/vbRn86Otw6FGWfUBK4SJSoY7TjtRWjRUcr7l8y7BRR
+RVkBRRRQAUUUUAFFFFABRRRQBXuLG2uXDzR7mAxncRx+FRf2TY/88P8Ax9v8au0UuVdjRVZpWTZS
+/smx/wCeH/j7f40f2TY/88P/AB9v8au0Ucq7B7ap/M/vMieytbS5Mj2gktnQKTjd5ZBOSc9Bg9fa
+tGyt1trVYkbcoJIPsST/AFqSSNZYnjcZRwVYeoNZ0c93ZT/Z5oZJrcDEcyqWbHuBn1x26UyG23dm
+mSACT0FZljplnJYW7vDlmiUk7j1x9aS4ub26JgtLZ0RsK8zgqVB7gHGeM1pRxrFEkaDCIAqj0Aoa
+T3HGUo/C7FT+ybH/AJ4f+Pt/jR/ZNj/zw/8AH2/xq7RS5V2K9tU/mf3lL+ybH/nh/wCPt/jR/ZNj
+/wA8P/H2/wAau0Ucq7B7ap/M/vCiiimZhRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAF
+FFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQB//
+2Q==
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="54f6c10d-9aab-41cf-922a-ad1785b30a0c"
+	name="TrendyolTestRepository"
+	relativepath="TrendyolTestRepository.rxrep">
+		<codegen
+		classname="TrendyolTestRepository"
+		namespace="TrendyolTest">
+		</codegen>
+		<rootfolder
+		id="9fb9b44c-a0d9-4454-a26c-fa4f04e128ac"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		FavorilemeGit.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

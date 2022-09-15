@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="ac7019f4-3175-4752-b33d-85024dbb2bc4"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="KadınVeErkekButtons"
+	namespace="TrendyolTest">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="147;16"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="d9df43da-3607-49c6-85d4-7409d5eb18ad"
+		sx="888"
+		sy="600"
+		warnoutofbounds="False">
+			<comment>
+				Kadın butonuna tıklanıldı
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="35749e62-51be-474a-9f12-8cb0c020e953"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, buttontag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="True"
+				index="0"
+				prefcap="buttontag"
+				rect="741,584,208,50"
+				role="button"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						q-secondary q-fluid q-button-medium q-button female active &#32;
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						female q-button q-button-medium q-fluid q-secondary
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						button
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						button
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='www.trendyol.com']//div[#'login-register']//form[@action='https://www.trendyol.com/uyelik?cb=https%3A%2F%2Fwww.trendyol.com%2F']/div[3]/div/button[1]
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="40596091-99f3-40b7-96f7-c6cb209d56e0">
+				/9j/4AAQSkZJRgABAQEAeAB4AAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCABkAbQDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKKKK
+ACiiigAooooAKKKKACiik3DdtyM4zigBaKKKACiiigAooooAKKKKACiml0U4ZlBxnBPb1pwORkUA
+FFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAU
+UUUAFFFFABRRRQAUUUUAFVbj97eRQN/q9jOw/vYwAD7c1aqKaHzGR1bZIn3Wxn6gj0oAinjit4P3
+cMeC6Dbj5eoGcUNLO9xNFF5aiMAgsCc57dac9vLJGVlmBO5T8qYAwc+uf1p6w7Z5ZN3+sAGMdMUA
+Vjeu0cDAxwrKm4vICRn06inyyyLNL5aRmRYQwOOTyeM+nFOS2ljt0hjmXaq7TujyD+tEVulqd5kw
+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
+QAUUUUAFFFFABRRRQB//2Q==
+			</helperscreenshot>
+		</mouseitem>
+		<validationitem
+		action="AttributeContains"
+		enabled="True"
+		optional="False"
+		searchpropertyid="814d2ed8-7c17-4ebf-8604-ee0d60fbd582">
+			<comment>
+				Kadın butonuna tıklanıldığı doğrulandı
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="35749e62-51be-474a-9f12-8cb0c020e953"
+			sourcename="RepositoryEditor">
+				<element
+				capabilities="webelement, buttontag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="True"
+				index="0"
+				prefcap="buttontag"
+				rect="741,584,208,50"
+				role="button"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						q-secondary q-fluid q-button-medium q-button female active &#32;
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						female q-button q-button-medium q-fluid q-secondary
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						button
+					</attribute>
+					<attribute
+					name="autofocus"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="disabled"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="type"
+					type="System.String">
+						button
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='www.trendyol.com']//div[#'login-register']//form[@action='https://www.trendyol.com/uyelik?cb=https%3A%2F%2Fwww.trendyol.com%2F']/div[3]/div/button[1]
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<matchname>
+				Class
+			</matchname>
+			<matchvalue>
+				active
+			</matchvalue>
+		</validationitem>
+	</recorditems>
+	<repository
+	id="54f6c10d-9aab-41cf-922a-ad1785b30a0c"
+	name="TrendyolTestRepository"
+	relativepath="TrendyolTestRepository.rxrep">
+		<codegen
+		classname="TrendyolTestRepository"
+		namespace="TrendyolTest">
+		</codegen>
+		<rootfolder
+		id="9fb9b44c-a0d9-4454-a26c-fa4f04e128ac"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		KadınButton.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

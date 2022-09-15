@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="30.01s"
+		durationms="30011"
+		type="root"
+		rid="12208a2f4a4df13a"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="user"
+		rxversion="10.2.4.0"
+		host="DESKTOP-UK4GL4A"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="14.09.2022 21:47:41"
+		timestampiso="2022-09-14T18:47:41"
+		endtime="14.09.2022 21:48:11"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="UrunTikla">
+		<detail>
+			UrunTikla
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.273"
+			timeRelativeToTestModuleStartTime="00:06.273"
+			timeWallClock="21:47:47"
+			time="00:06.273"
+			level="Info"
+			category="Mouse">
+			<message>
+				Urune tiklanildi<br/>Mouse Left Click item 'ApplicationUnderTest.Overlay' at 635;468.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'search-app']/div/div[1]/div[2]/div[5]/div/div[2]/?/?/a[@href>'https://www.trendyol.com/']/div[1]/div[3]"
+				itempath=".//div[#'search-app']/div/div[1]/div[2]/div[5]/div/div[2]/?/?/a[@href>'https://www.trendyol.com/']/div[1]/div[3]"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.Overlay"
+				id="08310082fdad455f9386d2f746f97f76"
+				timeout="60000"
+				codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\UrunTikla.cs"
+				codeline="83"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:30.013"
+			timeRelativeToTestModuleStartTime="00:30.013"
+			timeWallClock="21:48:11"
+			time="00:30.013"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

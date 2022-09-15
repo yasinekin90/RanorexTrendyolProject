@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="11.2s"
+		durationms="11196"
+		type="root"
+		rid="e19b19340ef25a9"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="1"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="user"
+		rxversion="10.2.4.0"
+		host="DESKTOP-UK4GL4A"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="14.09.2022 19:09:25"
+		timestampiso="2022-09-14T16:09:25"
+		endtime="14.09.2022 19:09:37"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="4.32s"
+			durationms="4321"
+			type="test-suite"
+			rid="88d07262971529b"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesstestcasecount="0"
+			totalfailedtestcasecount="1"
+			totalblockedtestcasecount="0"
+			childsuccesscount="0"
+			childfailedcount="1"
+			childblockedcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			totalmaintenancemodecount="0"
+			testsuitename="TrendyolTest"
+			headertext="TrendyolTest"
+			runconfigname="TestRun"
+			runlabel="">
+			<params>
+			</params>
+			<activity
+				result="Failed"
+				duration="4.29s"
+				durationms="4294"
+				type="test-case"
+				rid="1bbc43c5d2c98af7"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="1"
+				totalblockedtestcasecount="0"
+				childsuccesscount="1"
+				childfailedcount="1"
+				childblockedcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				testcontainername="TC002-User_verify_the_specified_fields"
+				testcontainerid="81556d0d-7549-4da2-8b0a-1deac222521d"
+				headertext="TC002-User_verify_the_specified_fields"
+				displayName="TC002-User_verify_the_specified_fields"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+				<activity
+					result="Success"
+					duration="656ms"
+					durationms="656"
+					type="test-module"
+					rid="ff57b8abf153efc"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="OpenBrowser"
+					displayName="OpenBrowser"
+					moduleid="78de0e53-fd12-4806-9682-c6d2370612a9"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.062"
+						timeRelativeToTestModuleStartTime="00:00.015"
+						timeWallClock="19:09:32"
+						time="00:00.062"
+						level="Info"
+						category="Website">
+						<message>
+							Opening web site 'www.trendyol.com' with browser 'chrome' in normal mode.
+						</message>
+						<metainfo
+							itemindex="0"
+							codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\OpenBrowser.cs"
+							codeline="82"
+							loglvl="Info">
+						</metainfo>
+					</item>
+				</activity>
+				<activity
+					result="Failed"
+					duration="3.61s"
+					durationms="3613"
+					type="test-module"
+					rid="2c6f6201d4406299"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="GirisYap"
+					displayName="GirisYap"
+					moduleid="579e131c-f896-438b-873d-73ce041b6a5a"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<errormessage>
+						Element for item 'GirişYap' does not exist (element is not valid).
+					</errormessage>
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.710"
+						timeRelativeToTestModuleStartTime="00:00.003"
+						timeWallClock="19:09:33"
+						time="00:00.710"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'ApplicationUnderTest.GirişYap' at Center.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]/?/?/p[@innertext='Giriş Yap']"
+							itempath=".//div[#'account-navigation-container']/div/div[1]/?/?/p[@innertext='Giriş Yap']"
+							fullname="TrendyolTestRepository.ApplicationUnderTest.GirişYap"
+							id="e614e82383e34ea081a853e5efae7604"
+							timeout="60000"
+							codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\GirisYap.cs"
+							codeline="82"
+							itemindex="0"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:03.862"
+						timeRelativeToTestModuleStartTime="00:03.156"
+						timeWallClock="19:09:36"
+						time="00:03.862"
+						level="Info"
+						category="Validation"
+						errimg="images_Trendyol_8645517\Trendyol_8645517_e88b70f1_trace.jpg"
+						errthumb="images_Trendyol_8645517\Trendyol_8645517_e88b70f1_trace_thumb.jpg">
+						<message>
+							Validating Exists on item 'ApplicationUnderTest.GirişYap'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]/?/?/p[@innertext='Giriş Yap']"
+							itempath=".//div[#'account-navigation-container']/div/div[1]/?/?/p[@innertext='Giriş Yap']"
+							fullname="TrendyolTestRepository.ApplicationUnderTest.GirişYap"
+							id="e614e82383e34ea081a853e5efae7604"
+							timeout="60000"
+							codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\GirisYap.cs"
+							codeline="86"
+							itemindex="1"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:04.129"
+						timeRelativeToTestModuleStartTime="00:03.423"
+						timeWallClock="19:09:36"
+						time="00:04.129"
+						level="Failure"
+						category="Validation"
+						errimg="images_Trendyol_8645517\Trendyol_8645517_2a091cf2_trace.jpg"
+						errthumb="images_Trendyol_8645517\Trendyol_8645517_2a091cf2_trace_thumb.jpg">
+						<message>
+							Element for item 'GirişYap' does not exist (element is not valid).
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]/?/?/p[@innertext='Giriş Yap']"
+							itempath=".//div[#'account-navigation-container']/div/div[1]/?/?/p[@innertext='Giriş Yap']"
+							fullname="TrendyolTestRepository.ApplicationUnderTest.GirişYap"
+							id="e614e82383e34ea081a853e5efae7604"
+							timeout="60000"
+							codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\GirisYap.cs"
+							codeline="87"
+							loglvl="Failure"
+							itemindex="1">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:04.179"
+						timeRelativeToTestModuleStartTime="00:03.473"
+						timeWallClock="19:09:36"
+						time="00:04.179"
+						level="Error"
+						category="Module"
+						errimg="images_Trendyol_8645517\Trendyol_8645517_1a4ceac5_trace.jpg"
+						errthumb="images_Trendyol_8645517\Trendyol_8645517_1a4ceac5_trace_thumb.jpg">
+						<message>
+							Module execution was aborted because a validation step has failed. Element for item 'GirişYap' does not exist (element is not valid).
+						</message>
+						<metainfo
+							stacktrace="   konum: Ranorex.Validate.ThrowValidationException(RepoItemInfo itemInfo, ValidationException ex)
+   konum: Ranorex.Validate.IsTrueInternal(Boolean condition, String message, Options options, RepoItemInfo itemInfo, RanorexException innerException)
+   konum: Ranorex.Validate.Exists(RepoItemInfo itemInfo, String message, Options options)
+   konum: Ranorex.Validate.Exists(RepoItemInfo itemInfo)
+   konum: TrendyolTest.GirisYap.Ranorex.Core.Testing.ITestModule.Run() c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\GirisYap.cs içinde: satır 87
+   konum: Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+							codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\GirisYap.cs"
+							codeline="87"
+							type="repoitem"
+							path="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]/?/?/p[@innertext='Giriş Yap']"
+							itempath=".//div[#'account-navigation-container']/div/div[1]/?/?/p[@innertext='Giriş Yap']"
+							fullname="TrendyolTestRepository.ApplicationUnderTest.GirişYap"
+							id="e614e82383e34ea081a853e5efae7604"
+							timeout="60000"
+							loglvl="Error"
+							itemindex="1">
+						</metainfo>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

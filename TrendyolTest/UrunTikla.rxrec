@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="489481e7-767a-4bf4-96fd-a40e2b077643"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="UrunTikla"
+	namespace="TrendyolTest">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mousewheelitem
+		delta="-240"
+		duration="300ms"
+		enabled="True"
+		optional="False"
+		orientation="Vertical">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</mousewheelitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="300ms"
+		enabled="True"
+		loc="48;14"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="96258399-a40b-4a0c-bcca-f8d135cd3c27"
+		sx="601"
+		sy="633"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="dd58c2e6-00ad-4f9b-93c2-03c30237a6e9"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, spantag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="1"
+				prefcap="spantag"
+				rect="553,619,160,23"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="class"
+					type="System.String">
+						prdct-desc-cntnr-name hasRatings
+					</attribute>
+					<attribute
+					name="draggable"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Guıle Kısa Kollu Tişört
+					</attribute>
+					<attribute
+					name="safeclass"
+					type="System.String">
+						hasRatings prdct-desc-cntnr-name
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						span
+					</attribute>
+					<attribute
+					name="title"
+					type="System.String">
+						Guıle Kısa Kollu Tişört
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='www.trendyol.com']//div[#'search-app']/div/div[1]/div[2]/div[5]/div[1]/div/div[2]/?/?/a[@href&gt;'https://www.trendyol.com/']/div[2]/div[1]//span[@title='Gu&#305;le K&#305;sa Kollu Ti&#351;&#246;rt']
+				</path>
+				<robustPath>
+					/dom[@domain='www.trendyol.com']//div[#'search-app']//span[@title='Guıle Kısa Kollu Tişört']
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="103dbb38-9fb5-4f0b-ab73-99ecef99aff6">
+				/9j/4AAQSkZJRgABAQEAeAB4AAD/2wBDABwTFRgVERwYFhgfHRwhKUUtKSYmKVQ8QDJFZFhpZ2JY
+YF9ufJ6GbnWWd19giruLlqOpsbOxa4TC0MGszp6usar/2wBDAR0fHykkKVEtLVGqcmByqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqr/wAARCAA+ARkDASIA
+AhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQA
+AAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3
+ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWm
+p6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEA
+AwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSEx
+BhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElK
+U1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3
+uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDpKKKK
+ACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooA
+KKKKAEb7p+lAob7p+lAoAWiiigAoqrbzSPqF1EzZSPZtGOmRzVSS7ufsU7JJiRbjy0OBwMgYoA1a
+Ky7/AFCRbCKS3O2RxuPAO0Dr+vFStdSpqwiZv3JUDGOjHOD+lAF+is2O8mk1OaMN+5WNiowOoIGf
+zzTNNmnuPKd9SRi3LQ7Fz/jQBq1iwxXN5eXareSxCOQgAEnuff2q/YTSTNciRs7JmVeOgqpYyCG4
+1KQjO1849eWqJbo6KTcYya3/AOCP/sy6/wCglN+v+NH9mXX/AEEpv1/xq6iTfKzzHPUqFG36ev60
+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
+f//Z
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="54f6c10d-9aab-41cf-922a-ad1785b30a0c"
+	name="TrendyolTestRepository"
+	relativepath="TrendyolTestRepository.rxrep">
+		<codegen
+		classname="TrendyolTestRepository"
+		namespace="TrendyolTest">
+		</codegen>
+		<rootfolder
+		id="9fb9b44c-a0d9-4454-a26c-fa4f04e128ac"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		UrunTikla.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

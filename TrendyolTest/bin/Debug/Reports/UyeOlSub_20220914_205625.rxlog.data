@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="10.57s"
+		durationms="10568"
+		type="root"
+		rid="20cf67470aba69d8"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="user"
+		rxversion="10.2.4.0"
+		host="DESKTOP-UK4GL4A"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="14.09.2022 20:56:27"
+		timestampiso="2022-09-14T17:56:27"
+		endtime="14.09.2022 20:56:38"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="UyeOlSub">
+		<detail>
+			UyeOlSub
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.651"
+			timeRelativeToTestModuleStartTime="00:07.651"
+			timeWallClock="20:56:35"
+			time="00:07.651"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.UyeOl2' at 283;30.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'login-register']//form[@action='https://www.trendyol.com/uyelik?cb=https%3A%2F%2Fwww.trendyol.com%2F']/button"
+				itempath=".//div[#'login-register']//form[@action='https://www.trendyol.com/uyelik?cb=https%3A%2F%2Fwww.trendyol.com%2F']/button"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.UyeOl2"
+				id="0840ce5f13eb4eecba00b421b6aa76b4"
+				timeout="60000"
+				codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\UyeOlSub.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.949"
+			timeRelativeToTestModuleStartTime="00:09.949"
+			timeWallClock="20:56:37"
+			time="00:09.949"
+			level="Warn"
+			category="Click"
+			errimg="images_UyeOlSub_288e9316\UyeOlSub_53a94884_rxlog.jpg"
+			errthumb="images_UyeOlSub_288e9316\UyeOlSub_53a94884_rxlog_thumb.jpg">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>
+			</message>
+			<metainfo
+				codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\UyeOlSub.cs"
+				codeline="83"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.493"
+			timeRelativeToTestModuleStartTime="00:10.493"
+			timeWallClock="20:56:37"
+			time="00:10.493"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'ApplicationUnderTest.ErrorBoxWrapper'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'error-box-wrapper']"
+				itempath=".//div[#'error-box-wrapper']"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.ErrorBoxWrapper"
+				id="c67d889defb8435fa70936c5b4a598a7"
+				timeout="60000"
+				codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\UyeOlSub.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.568"
+			timeRelativeToTestModuleStartTime="00:10.568"
+			timeWallClock="20:56:38"
+			time="00:10.568"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'ErrorBoxWrapper' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'error-box-wrapper']"
+				itempath=".//div[#'error-box-wrapper']"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.ErrorBoxWrapper"
+				id="c67d889defb8435fa70936c5b4a598a7"
+				timeout="60000"
+				codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\UyeOlSub.cs"
+				codeline="87"
+				loglvl="Success"
+				itemindex="1">
+			</metainfo>
+		</item>
+	</activity>
+</report>

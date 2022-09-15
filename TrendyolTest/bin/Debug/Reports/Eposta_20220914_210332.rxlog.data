@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="6.91s"
+		durationms="6911"
+		type="root"
+		rid="13319193a78dbde0"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="user"
+		rxversion="10.2.4.0"
+		host="DESKTOP-UK4GL4A"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="14.09.2022 21:03:34"
+		timestampiso="2022-09-14T18:03:34"
+		endtime="14.09.2022 21:03:41"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Eposta">
+		<detail>
+			Eposta
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.129"
+			timeRelativeToTestModuleStartTime="00:05.129"
+			timeWallClock="21:03:39"
+			time="00:05.129"
+			level="Info"
+			category="Wait">
+			<message>
+				Waiting 5s to exist. Associated repository item: 'ApplicationUnderTest.RegisterEmail'
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//input[#'register-email']"
+				itempath=".//input[#'register-email']"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.RegisterEmail"
+				id="0c760dabd4f64bf6947e9194aba02261"
+				timeout="5000"
+				codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\Eposta.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.807"
+			timeRelativeToTestModuleStartTime="00:06.807"
+			timeWallClock="21:03:41"
+			time="00:06.807"
+			level="Info"
+			category="Validation">
+			<message>
+				E posta alanı dogrulandı<br/>Validating Exists on item 'ApplicationUnderTest.RegisterEmail'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//input[#'register-email']"
+				itempath=".//input[#'register-email']"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.RegisterEmail"
+				id="0c760dabd4f64bf6947e9194aba02261"
+				timeout="60000"
+				codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\Eposta.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.910"
+			timeRelativeToTestModuleStartTime="00:06.910"
+			timeWallClock="21:03:41"
+			time="00:06.910"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'RegisterEmail' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//input[#'register-email']"
+				itempath=".//input[#'register-email']"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.RegisterEmail"
+				id="0c760dabd4f64bf6947e9194aba02261"
+				timeout="60000"
+				codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\Eposta.cs"
+				codeline="87"
+				loglvl="Success"
+				itemindex="1">
+			</metainfo>
+		</item>
+	</activity>
+</report>

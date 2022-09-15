@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="8.57s"
+		durationms="8567"
+		type="root"
+		rid="5498d6f369cf2f8"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="user"
+		rxversion="10.2.4.0"
+		host="DESKTOP-UK4GL4A"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="14.09.2022 01:03:47"
+		timestampiso="2022-09-13T22:03:47"
+		endtime="14.09.2022 01:03:56"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<errormessage>
+			Element is not visible in the UI and thus click can't be perfomed.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.021"
+			timeRelativeToTestModuleStartTime="00:05.021"
+			timeWallClock="01:03:52"
+			time="00:05.021"
+			level="Info"
+			category="Mouse"
+			errimg="images_Recordin_c9573b06\Recordin_c9573b06_61b04c83_trace.jpg"
+			errthumb="images_Recordin_c9573b06\Recordin_c9573b06_61b04c83_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.UEyeOl' at 103;21.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]//div[@innertext='Üye Ol']"
+				itempath=".//div[#'account-navigation-container']/div/div[1]//div[@innertext='Üye Ol']"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.UEyeOl"
+				id="672a0423108542b0baae435f408600d9"
+				timeout="60000"
+				codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\Recording1.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.202"
+			timeRelativeToTestModuleStartTime="00:08.202"
+			timeWallClock="01:03:56"
+			time="00:08.202"
+			level="Warn"
+			category="Click">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>(null)
+			</message>
+			<metainfo
+				codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\Recording1.cs"
+				codeline="83"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.449"
+			timeRelativeToTestModuleStartTime="00:08.449"
+			timeWallClock="01:03:56"
+			time="00:08.449"
+			level="Error"
+			category="Module"
+			errimg="images_Recordin_c9573b06\Recordin_c9573b06_08248aac_trace.jpg"
+			errthumb="images_Recordin_c9573b06\Recordin_c9573b06_08248aac_trace_thumb.jpg">
+			<message>
+				Element is not visible in the UI and thus click can't be perfomed.
+			</message>
+			<metainfo
+				stacktrace="   konum: Ranorex.Adapter.Click(MouseButtons buttons, Location location, Int32 times, Duration moveTime, Boolean showOutOfBoundsWarning)
+   konum: Ranorex.Adapter.Click(Location location)
+   konum: TrendyolTest.Recording1.Ranorex.Core.Testing.ITestModule.Run() c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\Recording1.cs içinde: satır 83
+   konum: Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\Recording1.cs içinde"
+				codeline="83"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

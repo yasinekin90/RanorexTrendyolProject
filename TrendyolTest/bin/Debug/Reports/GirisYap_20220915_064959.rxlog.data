@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="14.15s"
+		durationms="14154"
+		type="root"
+		rid="216b46e01a440e1c"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="user"
+		rxversion="10.2.4.0"
+		host="DESKTOP-UK4GL4A"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="15.09.2022 06:50:01"
+		timestampiso="2022-09-15T03:50:01"
+		endtime="15.09.2022 06:50:15"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="GirisYap">
+		<detail>
+			GirisYap
+		</detail>
+		<errormessage>
+			Failed to wait for item to not exist. Item 'TrendyolTestRepository.ApplicationUnderTest.GirişYap1' still exists after the specified timeout of 3s.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.144"
+			timeRelativeToTestModuleStartTime="00:08.144"
+			timeWallClock="06:50:09"
+			time="00:08.144"
+			level="Info"
+			category="Mouse"
+			errimg="images_GirisYap_1b2b9856\GirisYap_1b2b9856_7b5d8158_trace.jpg"
+			errthumb="images_GirisYap_1b2b9856\GirisYap_1b2b9856_7b5d8158_trace_thumb.jpg">
+			<message>
+				Mouse Left Move item 'ApplicationUnderTest.GirişYap' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]/?/?/p[@innertext='Giriş Yap']"
+				itempath=".//div[#'account-navigation-container']/div/div[1]/?/?/p[@innertext='Giriş Yap']"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.GirişYap"
+				id="e614e82383e34ea081a853e5efae7604"
+				timeout="60000"
+				codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\GirisYap.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.805"
+			timeRelativeToTestModuleStartTime="00:10.805"
+			timeWallClock="06:50:12"
+			time="00:10.805"
+			level="Info"
+			category="Wait"
+			errimg="images_GirisYap_1b2b9856\GirisYap_1b2b9856_1f028936_trace.jpg"
+			errthumb="images_GirisYap_1b2b9856\GirisYap_1b2b9856_1f028936_trace_thumb.jpg">
+			<message>
+				Waiting 3s to not exist. Associated repository item: 'ApplicationUnderTest.GirişYap1'
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]//div[@innertext='Giriş Yap']"
+				itempath=".//div[#'account-navigation-container']/div/div[1]//div[@innertext='Giriş Yap']"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.GirişYap1"
+				id="5e6422f25cc0467d9edad308688dee76"
+				timeout="3000"
+				codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\GirisYap.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.901"
+			timeRelativeToTestModuleStartTime="00:13.901"
+			timeWallClock="06:50:15"
+			time="00:13.901"
+			level="Error"
+			category="Module"
+			errimg="images_GirisYap_1b2b9856\GirisYap_1b2b9856_0c0ccd4f_trace.jpg"
+			errthumb="images_GirisYap_1b2b9856\GirisYap_1b2b9856_0c0ccd4f_trace_thumb.jpg">
+			<message>
+				Failed to wait for item to not exist. Item 'TrendyolTestRepository.ApplicationUnderTest.GirişYap1' still exists after the specified timeout of 3s.
+			</message>
+			<metainfo
+				stacktrace="   konum: Ranorex.Core.Repository.RepoItemInfo.WaitForNotExists(Duration waitTimeout)
+   konum: TrendyolTest.GirisYap.Ranorex.Core.Testing.ITestModule.Run() c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\GirisYap.cs içinde: satır 87
+   konum: Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\GirisYap.cs içinde"
+				codeline="87"
+				loglvl="Error"
+				id="5e6422f25cc0467d9edad308688dee76"
+				path="/dom[@domain='www.trendyol.com']//div[#'account-navigation-container']/div/div[1]//div[@innertext='Giriş Yap']"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.GirişYap1"
+				itemindex="1">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="28.71s"
+		durationms="28713"
+		type="root"
+		rid="1b37847deae5acac"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="user"
+		rxversion="10.2.4.0"
+		host="DESKTOP-UK4GL4A"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="14.09.2022 21:22:53"
+		timestampiso="2022-09-14T18:22:53"
+		endtime="14.09.2022 21:23:22"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="emailblankspace">
+		<detail>
+			emailblankspace
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.161"
+			timeRelativeToTestModuleStartTime="00:05.161"
+			timeWallClock="21:22:58"
+			time="00:05.161"
+			level="Info"
+			category="Keyboard">
+			<message>
+				e posta alanına bosluk karakteri girildi<br/>Key sequence '          ' with focus on 'HttpsWwwTrendyolComUyelikcbEqhttps'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title>'https://www.trendyol.com/']"
+				itempath="/form[@title>'https://www.trendyol.com/']"
+				fullname="TrendyolTestRepository.HttpsWwwTrendyolComUyelikcbEqhttps.Self"
+				id="4406b713694f4dda9cd0765980b4be31"
+				timeout="30000"
+				codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\emailblankspace.cs"
+				codeline="83"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:28.714"
+			timeRelativeToTestModuleStartTime="00:28.714"
+			timeWallClock="21:23:22"
+			time="00:28.714"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

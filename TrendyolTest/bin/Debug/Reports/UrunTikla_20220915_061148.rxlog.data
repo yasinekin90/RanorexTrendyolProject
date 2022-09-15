@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="12.53s"
+		durationms="12534"
+		type="root"
+		rid="2acee2668e7c84b8"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="user"
+		rxversion="10.2.4.0"
+		host="DESKTOP-UK4GL4A"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="15.09.2022 06:11:51"
+		timestampiso="2022-09-15T03:11:51"
+		endtime="15.09.2022 06:12:04"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="UrunTikla">
+		<detail>
+			UrunTikla
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.339"
+			timeRelativeToTestModuleStartTime="00:08.339"
+			timeWallClock="06:12:00"
+			time="00:08.339"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse scroll Vertical by 120 units.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\UrunTikla.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.666"
+			timeRelativeToTestModuleStartTime="00:08.666"
+			timeWallClock="06:12:00"
+			time="00:08.666"
+			level="Info"
+			category="Wait">
+			<message>
+				Waiting 5s to exist. Associated repository item: 'ApplicationUnderTest.GuıleKısaKolluTişoert1'
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'search-app']/div/div[1]/div[2]/div[5]/div/div[3]/?/?/a[@href>'https://www.trendyol.com/']/div[2]/div[1]//span[@title='Guıle Kısa Kollu Tişört']"
+				itempath=".//div[#'search-app']/div/div[1]/div[2]/div[5]/div/div[3]/?/?/a[@href>'https://www.trendyol.com/']/div[2]/div[1]//span[@title='Guıle Kısa Kollu Tişört']"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.GuıleKısaKolluTişoert1"
+				id="73069b547eb44395ae327e4787ddbbdb"
+				timeout="5000"
+				codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\UrunTikla.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.837"
+			timeRelativeToTestModuleStartTime="00:10.837"
+			timeWallClock="06:12:02"
+			time="00:10.837"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.GuıleKısaKolluTişoert1' at Center.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'search-app']/div/div[1]/div[2]/div[5]/div/div[3]/?/?/a[@href>'https://www.trendyol.com/']/div[2]/div[1]//span[@title='Guıle Kısa Kollu Tişört']"
+				itempath=".//div[#'search-app']/div/div[1]/div[2]/div[5]/div/div[3]/?/?/a[@href>'https://www.trendyol.com/']/div[2]/div[1]//span[@title='Guıle Kısa Kollu Tişört']"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.GuıleKısaKolluTişoert1"
+				id="73069b547eb44395ae327e4787ddbbdb"
+				timeout="60000"
+				codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\UrunTikla.cs"
+				codeline="89"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

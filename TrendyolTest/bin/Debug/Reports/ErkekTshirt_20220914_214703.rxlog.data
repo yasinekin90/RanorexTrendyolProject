@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="9.74s"
+		durationms="9740"
+		type="root"
+		rid="1cad8db553fbf702"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="user"
+		rxversion="10.2.4.0"
+		host="DESKTOP-UK4GL4A"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="14.09.2022 21:47:05"
+		timestampiso="2022-09-14T18:47:05"
+		endtime="14.09.2022 21:47:14"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="ErkekTshirt">
+		<detail>
+			ErkekTshirt
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.678"
+			timeRelativeToTestModuleStartTime="00:05.678"
+			timeWallClock="21:47:10"
+			time="00:05.678"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.Tişoert' at 26;9.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'navigation-wrapper']/nav/ul/li[2]/div/div/div/div[1]/div/ul/li[1]/a[@innertext='Tişört']"
+				itempath=".//div[#'navigation-wrapper']/nav/ul/li[2]/div/div/div/div[1]/div/ul/li[1]/a[@innertext='Tişört']"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.Tişoert"
+				id="b3222690c51e4fc89d5dde70ac7b6855"
+				timeout="60000"
+				codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\ErkekTshirt.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.017"
+			timeRelativeToTestModuleStartTime="00:09.017"
+			timeWallClock="21:47:14"
+			time="00:09.017"
+			level="Warn"
+			category="Click">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>(null)
+			</message>
+			<metainfo
+				codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\ErkekTshirt.cs"
+				codeline="83"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="38394e13-f82a-4300-a65d-6a624bc4d0af"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="ErkekTshirt"
+	namespace="TrendyolTest">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="5726ms"
+		enabled="True"
+		loc="26;9"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="9584597b-af08-4235-8d31-f1c85890cd98"
+		sx="258"
+		sy="309"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="b3222690-c51e-4fc8-9d5d-de70ac7b6855"
+			sourcename="Recorder">
+				<element
+				capabilities="webelement, atag"
+				dontcache="True"
+				enabled="True"
+				flavor="chromeweb"
+				hasfocus="False"
+				index="0"
+				prefcap="atag"
+				rect="232,300,40,21"
+				role="unknown"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="draggable"
+					type="System.String">
+						True
+					</attribute>
+					<attribute
+					name="hidden"
+					type="System.String">
+						False
+					</attribute>
+					<attribute
+					name="innertext"
+					type="System.String">
+						Tişört
+					</attribute>
+					<attribute
+					name="tagname"
+					type="System.String">
+						a
+					</attribute>
+					<attribute
+					name="href"
+					type="System.String">
+						https://www.trendyol.com/erkek-t-shirt-x-g2-c73
+					</attribute>
+				</element>
+				<path>
+					/dom[@domain='www.trendyol.com']//div[#'navigation-wrapper']/nav/ul/li[2]/div/div/div/div[1]/div/ul/li[1]/a[@innertext='Tişört']
+				</path>
+				<robustPath>
+				</robustPath>
+			</info>
+			<helperscreenshot
+			guid="c219f11f-f777-4594-b4f8-c14a36f6ce42">
+				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
+oooAKKKKACiiigAooooAKKKKACiiigD/2Q==
+			</helperscreenshot>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="54f6c10d-9aab-41cf-922a-ad1785b30a0c"
+	name="TrendyolTestRepository"
+	relativepath="TrendyolTestRepository.rxrep">
+		<codegen
+		classname="TrendyolTestRepository"
+		namespace="TrendyolTest">
+		</codegen>
+		<rootfolder
+		id="9fb9b44c-a0d9-4454-a26c-fa4f04e128ac"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		ErkekTshirt.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

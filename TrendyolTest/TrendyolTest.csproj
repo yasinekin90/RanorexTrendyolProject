@@ -1,0 +1,778 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{4642DA25-9C7D-4561-90EE-CD82A17DF6D1}</ProjectGuid>
+    <TargetFrameworkProfile />
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>TrendyolTest</RootNamespace>
+    <AssemblyName>TrendyolTest</AssemblyName>
+    <NoWarn>1591</NoWarn>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <RANOREX_BIN_PATH Condition=" '$(RANOREX_BIN_PATH)' == '' ">$([MSBuild]::GetRegistryValueFromView('HKEY_LOCAL_MACHINE\SOFTWARE\Ranorex\Studio', 'InstallDir', null, RegistryView.Registry64, RegistryView.Registry32))\Bin</RANOREX_BIN_PATH>
+    <RanorexTargetsPath>$(RANOREX_BIN_PATH)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+    <projectdefaultrepository>fce6cf90-91f8-446e-ba9f-55672c66ec54</projectdefaultrepository>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ranorex.Bootstrapper">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core.Resolver">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Cef">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.ChromeWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Delphi">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.FirefoxWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Flex">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Java">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Mobile">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Msaa">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Office">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Qt">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.RawText">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Sap">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Uia">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Web">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WebDriver">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Win32">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddProductWishList.cs">
+      <BoundTo>adb26371-cef7-457d-b252-ef3dfb11bde7</BoundTo>
+      <DependentUpon>AddProductWishList.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ba196dff-c286-4c13-9d79-d762c6986ba9</id>
+    </Compile>
+    <Compile Include="AddProductWishList.UserCode.cs">
+      <BoundTo>adb26371-cef7-457d-b252-ef3dfb11bde7</BoundTo>
+      <DependentUpon>AddProductWishList.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>030956c6-4338-4a7f-8bd5-b036690dc89c</id>
+    </Compile>
+    <Compile Include="answer.cs">
+      <BoundTo>d79eb6f7-9d84-455e-8077-0127e9b8b215</BoundTo>
+      <DependentUpon>answer.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ae734634-76d6-4436-8d5e-e4deff69f868</id>
+    </Compile>
+    <Compile Include="answer.UserCode.cs">
+      <BoundTo>d79eb6f7-9d84-455e-8077-0127e9b8b215</BoundTo>
+      <DependentUpon>answer.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>675461b2-6402-4293-905d-bcfd2b8d37da</id>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <id>dd80ed4b-e879-4f14-b5a0-e87d6beb619c</id>
+    </Compile>
+    <Compile Include="ClicksOnUyeOl.cs">
+      <BoundTo>557e994f-321f-43d0-9178-8a8bc5f347b9</BoundTo>
+      <DependentUpon>ClicksOnUyeOl.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>0a6abcc3-d6c3-44f6-957b-489349b47e3f</id>
+    </Compile>
+    <Compile Include="ClicksOnUyeOl.UserCode.cs">
+      <BoundTo>557e994f-321f-43d0-9178-8a8bc5f347b9</BoundTo>
+      <DependentUpon>ClicksOnUyeOl.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>0e75228d-04ad-4edf-8b0b-c848f7fc7da7</id>
+    </Compile>
+    <Compile Include="CloseBrowser.cs">
+      <BoundTo>1b4dc70b-87dd-4899-a388-d90f0cd18b2d</BoundTo>
+      <DependentUpon>CloseBrowser.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c8fdd7d2-0638-403a-b2a5-6cc21f41fcbf</id>
+    </Compile>
+    <Compile Include="CloseBrowser.UserCode.cs">
+      <BoundTo>1b4dc70b-87dd-4899-a388-d90f0cd18b2d</BoundTo>
+      <DependentUpon>CloseBrowser.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a2dba67a-7197-4f9a-9ec6-975a337b4c32</id>
+    </Compile>
+    <Compile Include="emailblankspace.cs">
+      <BoundTo>0c60cce8-27d6-41f3-9f39-74f789a6c608</BoundTo>
+      <DependentUpon>emailblankspace.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>3caabcb9-878a-43a8-8032-0fb1e8bb8098</id>
+    </Compile>
+    <Compile Include="emailblankspace.UserCode.cs">
+      <BoundTo>0c60cce8-27d6-41f3-9f39-74f789a6c608</BoundTo>
+      <DependentUpon>emailblankspace.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>6195503d-6e0f-40eb-9c54-625b896129ec</id>
+    </Compile>
+    <Compile Include="emailgir.cs">
+      <BoundTo>c04d9a0d-1c98-4e36-8c09-879590b7f5c8</BoundTo>
+      <DependentUpon>emailgir.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>3b869646-aa65-4e16-ad92-e0b44edd7237</id>
+    </Compile>
+    <Compile Include="emailgir.UserCode.cs">
+      <BoundTo>c04d9a0d-1c98-4e36-8c09-879590b7f5c8</BoundTo>
+      <DependentUpon>emailgir.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>bcd1198c-18b6-4c35-ab06-a2a23968e397</id>
+    </Compile>
+    <Compile Include="Eposta.cs">
+      <BoundTo>990dd8db-b601-4e88-9bba-3f5ef71e29e4</BoundTo>
+      <DependentUpon>Eposta.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>6ee43c3c-5c2d-4386-976e-356e13feb2c6</id>
+    </Compile>
+    <Compile Include="Eposta.UserCode.cs">
+      <BoundTo>990dd8db-b601-4e88-9bba-3f5ef71e29e4</BoundTo>
+      <DependentUpon>Eposta.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>eb92b82b-254d-46d4-aa85-0f518fb08c22</id>
+    </Compile>
+    <Compile Include="ErkekButton.cs">
+      <BoundTo>c0c8b250-fe70-4cf9-97b1-d8db4ccde723</BoundTo>
+      <DependentUpon>ErkekButton.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>8c14a69e-b166-4c08-9485-21fd931354f1</id>
+    </Compile>
+    <Compile Include="ErkekButton.UserCode.cs">
+      <BoundTo>c0c8b250-fe70-4cf9-97b1-d8db4ccde723</BoundTo>
+      <DependentUpon>ErkekButton.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a8a0f6ef-23c0-4d7c-ab35-c365a4155881</id>
+    </Compile>
+    <Compile Include="ErkekTshirt.cs">
+      <BoundTo>e120e3f4-c29c-4995-a07e-1d0c70835345</BoundTo>
+      <DependentUpon>ErkekTshirt.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>bf8e48eb-ef46-4397-b0f1-6b28e1eb554e</id>
+    </Compile>
+    <Compile Include="ErkekTshirt.UserCode.cs">
+      <BoundTo>e120e3f4-c29c-4995-a07e-1d0c70835345</BoundTo>
+      <DependentUpon>ErkekTshirt.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>0d237cce-5e7e-4dec-88c0-322b052f7cb8</id>
+    </Compile>
+    <Compile Include="FavorilemeGit.cs">
+      <BoundTo>e22aab4f-0001-4a03-b56c-04efdab0d7ef</BoundTo>
+      <DependentUpon>FavorilemeGit.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f07f2c15-b1c4-4de8-9cde-4c3d6d1e08de</id>
+    </Compile>
+    <Compile Include="FavorilemeGit.UserCode.cs">
+      <BoundTo>e22aab4f-0001-4a03-b56c-04efdab0d7ef</BoundTo>
+      <DependentUpon>FavorilemeGit.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>1b845afd-ac43-45d9-974b-5f251b7e2494</id>
+    </Compile>
+    <Compile Include="FavorilerimUrunDogrula.cs">
+      <BoundTo>82fb0e30-9226-4607-9c20-5d171c64dcac</BoundTo>
+      <DependentUpon>FavorilerimUrunDogrula.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b12f32ab-315e-4e20-a745-e875f069671e</id>
+    </Compile>
+    <Compile Include="FavorilerimUrunDogrula.UserCode.cs">
+      <BoundTo>82fb0e30-9226-4607-9c20-5d171c64dcac</BoundTo>
+      <DependentUpon>FavorilerimUrunDogrula.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>09e9f92d-2381-4135-a0ad-a960ee4b3a30</id>
+    </Compile>
+    <Compile Include="GirisYap.cs">
+      <BoundTo>7e3d0715-0d11-45fd-a908-d84405b7d921</BoundTo>
+      <DependentUpon>GirisYap.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>5f32be3e-6f8b-4ed3-963c-45f4fa8960a8</id>
+    </Compile>
+    <Compile Include="GirisYap.UserCode.cs">
+      <BoundTo>7e3d0715-0d11-45fd-a908-d84405b7d921</BoundTo>
+      <DependentUpon>GirisYap.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>8dcd3805-3a2a-4c6f-ad19-6a45c0840427</id>
+    </Compile>
+    <Compile Include="GirisYap2.cs">
+      <BoundTo>b6e689a5-5c17-4ba3-a2f9-e220e5968d09</BoundTo>
+      <DependentUpon>GirisYap2.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>34ccc0fa-5c54-4066-9843-ab1c4dd6022e</id>
+    </Compile>
+    <Compile Include="GirisYap2.UserCode.cs">
+      <BoundTo>b6e689a5-5c17-4ba3-a2f9-e220e5968d09</BoundTo>
+      <DependentUpon>GirisYap2.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2896e1d6-3da1-4373-a0c0-5ed33e51a573</id>
+    </Compile>
+    <Compile Include="Help.cs">
+      <BoundTo>96ff053a-2026-49c2-9108-2b921997b0fe</BoundTo>
+      <DependentUpon>Help.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>0a023732-5101-4edc-8a43-b2b64317176f</id>
+    </Compile>
+    <Compile Include="Help.UserCode.cs">
+      <BoundTo>96ff053a-2026-49c2-9108-2b921997b0fe</BoundTo>
+      <DependentUpon>Help.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>bbdd2d18-c3b5-474c-97f0-e0a412388741</id>
+    </Compile>
+    <Compile Include="KadınButton.cs">
+      <BoundTo>647fbab7-3ee5-4531-93cb-717d15492d65</BoundTo>
+      <DependentUpon>KadınButton.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>64e63e4b-4b76-4ebb-988c-e9feb616c5c0</id>
+    </Compile>
+    <Compile Include="KadınButton.UserCode.cs">
+      <BoundTo>647fbab7-3ee5-4531-93cb-717d15492d65</BoundTo>
+      <DependentUpon>KadınButton.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ccf1a692-9892-46b9-9c30-29498bd79cd1</id>
+    </Compile>
+    <Compile Include="LogOut.cs">
+      <BoundTo>2f0661c3-5f94-4aab-ab23-296f40845e20</BoundTo>
+      <DependentUpon>LogOut.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>1c249185-0d5c-43d2-82aa-23f2d48c0ce8</id>
+    </Compile>
+    <Compile Include="LogOut.UserCode.cs">
+      <BoundTo>2f0661c3-5f94-4aab-ab23-296f40845e20</BoundTo>
+      <DependentUpon>LogOut.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>06da27e5-f672-4939-bbd6-ba522cd06dfb</id>
+    </Compile>
+    <Compile Include="OdemeSayfasinaGec.cs">
+      <BoundTo>fdce3eac-5ef8-48fe-9016-87b65648c2d5</BoundTo>
+      <DependentUpon>OdemeSayfasinaGec.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a9a8e7be-4d0c-4ede-a94b-a92951de7f7e</id>
+    </Compile>
+    <Compile Include="OdemeSayfasinaGec.UserCode.cs">
+      <BoundTo>fdce3eac-5ef8-48fe-9016-87b65648c2d5</BoundTo>
+      <DependentUpon>OdemeSayfasinaGec.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>439e48c1-6032-40c8-8a6c-2689072cf04e</id>
+    </Compile>
+    <Compile Include="OpenBrowser.cs">
+      <BoundTo>aaaafc7d-a546-47e9-995d-48cc3d1c14a5</BoundTo>
+      <DependentUpon>OpenBrowser.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>cbc1218b-e16b-4052-a9f4-07394652ad8a</id>
+    </Compile>
+    <Compile Include="OpenBrowser.UserCode.cs">
+      <BoundTo>aaaafc7d-a546-47e9-995d-48cc3d1c14a5</BoundTo>
+      <DependentUpon>OpenBrowser.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>1fedc78d-11ab-4fe2-8fe6-9a0bd428aeb7</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>3e8ed8b2-e390-416e-8940-c1e54f73e7cd</id>
+    </Compile>
+    <Compile Include="Recording1.cs">
+      <BoundTo>91001c80-a2e8-4f68-81c6-1de2f1be30d8</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>3a9da8ca-a1a0-413c-abad-1d66c349246a</id>
+    </Compile>
+    <Compile Include="Recording1.UserCode.cs">
+      <BoundTo>91001c80-a2e8-4f68-81c6-1de2f1be30d8</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>1db6b526-822e-4580-b2a9-1775a5790812</id>
+    </Compile>
+    <Compile Include="Reporting.cs">
+      <BoundTo>fdab856b-83cc-4230-9b66-1c408f09afb3</BoundTo>
+      <DependentUpon>Reporting.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>bbdeb6b9-1eb5-4a76-9b24-fc7697d03756</id>
+    </Compile>
+    <Compile Include="Reporting.UserCode.cs">
+      <BoundTo>fdab856b-83cc-4230-9b66-1c408f09afb3</BoundTo>
+      <DependentUpon>Reporting.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>3fad94d1-b449-4217-844a-301325180014</id>
+    </Compile>
+    <Compile Include="SepeteEkle.cs">
+      <BoundTo>7da8fc63-a80e-494d-9e9f-7e72e134c068</BoundTo>
+      <DependentUpon>SepeteEkle.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>1eae37b4-daec-4135-a300-2b4ffa47349a</id>
+    </Compile>
+    <Compile Include="SepeteEkle.UserCode.cs">
+      <BoundTo>7da8fc63-a80e-494d-9e9f-7e72e134c068</BoundTo>
+      <DependentUpon>SepeteEkle.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>44262a24-3cea-4317-87de-c1d33977beb9</id>
+    </Compile>
+    <Compile Include="SepeteGit.cs">
+      <BoundTo>2d5f0e1d-6b1e-4642-8d81-a14f699ab237</BoundTo>
+      <DependentUpon>SepeteGit.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>1ce05332-0fa8-4de6-9ebd-ed446c3d1938</id>
+    </Compile>
+    <Compile Include="SepeteGit.UserCode.cs">
+      <BoundTo>2d5f0e1d-6b1e-4642-8d81-a14f699ab237</BoundTo>
+      <DependentUpon>SepeteGit.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>154f808b-9643-4a24-b618-e9203a0969c6</id>
+    </Compile>
+    <Compile Include="SepetiOnayla.cs">
+      <BoundTo>028a7b03-29b1-467c-b7f1-77faf34e4cca</BoundTo>
+      <DependentUpon>SepetiOnayla.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>dcdb4f21-98d7-4cd1-a8ff-498e6ea94327</id>
+    </Compile>
+    <Compile Include="SepetiOnayla.UserCode.cs">
+      <BoundTo>028a7b03-29b1-467c-b7f1-77faf34e4cca</BoundTo>
+      <DependentUpon>SepetiOnayla.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>1dcb1125-61cc-4522-a9b0-4b9a8b48fad9</id>
+    </Compile>
+    <Compile Include="SepettekiUrunSayisiniArtir.cs">
+      <BoundTo>ecd89976-f365-44a1-968f-ba9d8f1ff5c1</BoundTo>
+      <DependentUpon>SepettekiUrunSayisiniArtir.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>7beb9f53-0b1e-4a35-94cd-a3ba55a13492</id>
+    </Compile>
+    <Compile Include="SepettekiUrunSayisiniArtir.UserCode.cs">
+      <BoundTo>ecd89976-f365-44a1-968f-ba9d8f1ff5c1</BoundTo>
+      <DependentUpon>SepettekiUrunSayisiniArtir.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>14e6986e-5bd4-4868-9da0-a65fe741b3db</id>
+    </Compile>
+    <Compile Include="SepettekiUrunuDogrula.cs">
+      <BoundTo>56840c86-0885-47c0-a9ae-ebfb9f9ef51b</BoundTo>
+      <DependentUpon>SepettekiUrunuDogrula.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b167742a-3266-4a7c-8b39-0e5f75de8488</id>
+    </Compile>
+    <Compile Include="SepettekiUrunuDogrula.UserCode.cs">
+      <BoundTo>56840c86-0885-47c0-a9ae-ebfb9f9ef51b</BoundTo>
+      <DependentUpon>SepettekiUrunuDogrula.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2e03ae90-e184-4a59-85b8-7d45bd9b1a49</id>
+    </Compile>
+    <Compile Include="SepettekiUrunuSil.cs">
+      <BoundTo>941e46f9-6569-4ea1-b6e2-a8ea7173ffb4</BoundTo>
+      <DependentUpon>SepettekiUrunuSil.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>fc5c0f9c-fa3c-4018-b7bc-40b3bf861f8f</id>
+    </Compile>
+    <Compile Include="SepettekiUrunuSil.UserCode.cs">
+      <BoundTo>941e46f9-6569-4ea1-b6e2-a8ea7173ffb4</BoundTo>
+      <DependentUpon>SepettekiUrunuSil.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>0542fdff-5f2c-4eaf-9911-c69015a79421</id>
+    </Compile>
+    <Compile Include="Sifre.cs">
+      <BoundTo>391f5fe7-11f1-48d6-8769-9a9c2804a70c</BoundTo>
+      <DependentUpon>Sifre.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>3f02d966-c735-48cd-9daa-441a32a1c431</id>
+    </Compile>
+    <Compile Include="Sifre.UserCode.cs">
+      <BoundTo>391f5fe7-11f1-48d6-8769-9a9c2804a70c</BoundTo>
+      <DependentUpon>Sifre.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>fec97019-e146-4dd1-aa27-b924cf20137e</id>
+    </Compile>
+    <Compile Include="sifreblankspace.cs">
+      <BoundTo>8019c4e0-6f3a-4f7c-a08e-7c83ceac43f2</BoundTo>
+      <DependentUpon>sifreblankspace.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>9b974e85-be82-426b-8e40-0071cb288ca6</id>
+    </Compile>
+    <Compile Include="sifreblankspace.UserCode.cs">
+      <BoundTo>8019c4e0-6f3a-4f7c-a08e-7c83ceac43f2</BoundTo>
+      <DependentUpon>sifreblankspace.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2073a3e8-814f-48e5-9bca-a0e7396421d8</id>
+    </Compile>
+    <Compile Include="sifregir.cs">
+      <BoundTo>8c27b48e-d876-40d5-9a51-cf64941817e3</BoundTo>
+      <DependentUpon>sifregir.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f5e5335b-b5a8-4ba2-9c62-6cfb693575ba</id>
+    </Compile>
+    <Compile Include="sifregir.UserCode.cs">
+      <BoundTo>8c27b48e-d876-40d5-9a51-cf64941817e3</BoundTo>
+      <DependentUpon>sifregir.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d069bc86-06bb-4879-94be-0a250b0a9f69</id>
+    </Compile>
+    <Compile Include="TrendyolTestRepository.cs">
+      <BoundTo>fce6cf90-91f8-446e-ba9f-55672c66ec54</BoundTo>
+      <DependentUpon>TrendyolTestRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>bac1b1b9-03f8-479b-af3c-51f7e37ce1e5</id>
+    </Compile>
+    <Compile Include="UrunSayfasinaGit.cs">
+      <BoundTo>ef833e90-fa48-49fd-904e-49c26e0dfe21</BoundTo>
+      <DependentUpon>UrunSayfasinaGit.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>2a892149-3d90-4073-ba38-568b79052dbf</id>
+    </Compile>
+    <Compile Include="UrunSayfasinaGit.UserCode.cs">
+      <BoundTo>ef833e90-fa48-49fd-904e-49c26e0dfe21</BoundTo>
+      <DependentUpon>UrunSayfasinaGit.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>0582147d-656e-419f-9c51-52f868fc2881</id>
+    </Compile>
+    <Compile Include="UrunSayisininArtirildiginiDogrula.cs">
+      <BoundTo>c755c528-662c-4dae-bf9a-02f0b899d85b</BoundTo>
+      <DependentUpon>UrunSayisininArtirildiginiDogrula.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>c5be40fe-03ac-403e-bbd3-897a2cc9f83b</id>
+    </Compile>
+    <Compile Include="UrunSayisininArtirildiginiDogrula.UserCode.cs">
+      <BoundTo>c755c528-662c-4dae-bf9a-02f0b899d85b</BoundTo>
+      <DependentUpon>UrunSayisininArtirildiginiDogrula.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>54b4a0ee-2f5d-419b-9171-93fc947c2a3f</id>
+    </Compile>
+    <Compile Include="UrunTikla.cs">
+      <BoundTo>d0592a76-aaf8-4e8a-855a-71ca1cc8f88c</BoundTo>
+      <DependentUpon>UrunTikla.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>6a252442-fb50-498c-9dbb-03999970e1da</id>
+    </Compile>
+    <Compile Include="UrunTikla.UserCode.cs">
+      <BoundTo>d0592a76-aaf8-4e8a-855a-71ca1cc8f88c</BoundTo>
+      <DependentUpon>UrunTikla.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>af81e67e-01fe-46dc-afa3-4fd04ac88c88</id>
+    </Compile>
+    <Compile Include="UrunuFavoriyeEkle.cs">
+      <BoundTo>19e05890-e78f-4b48-8bf2-24cc1ffe3d4a</BoundTo>
+      <DependentUpon>UrunuFavoriyeEkle.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>6a5fc1e7-a211-4f57-9ae2-ffc2688e43af</id>
+    </Compile>
+    <Compile Include="UrunuFavoriyeEkle.UserCode.cs">
+      <BoundTo>19e05890-e78f-4b48-8bf2-24cc1ffe3d4a</BoundTo>
+      <DependentUpon>UrunuFavoriyeEkle.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>09ec5ab7-dbf1-4e43-bddf-e14eaf90476f</id>
+    </Compile>
+    <Compile Include="UserClicksOnUyeOl.cs">
+      <BoundTo>8ad5e6a0-ef9b-4eee-957c-9f5e0c7d0c89</BoundTo>
+      <DependentUpon>UserClicksOnUyeOl.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b38a5d24-9ee8-424c-9bcc-e94a18270e56</id>
+    </Compile>
+    <Compile Include="UserClicksOnUyeOl.UserCode.cs">
+      <BoundTo>8ad5e6a0-ef9b-4eee-957c-9f5e0c7d0c89</BoundTo>
+      <DependentUpon>UserClicksOnUyeOl.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f057bc05-658e-46b3-b06a-28020f3d1778</id>
+    </Compile>
+    <Compile Include="UyeOl.cs">
+      <BoundTo>12c4711c-74ec-4227-81f1-6c93dc5dc2ff</BoundTo>
+      <DependentUpon>UyeOl.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d7f72ef1-cbcb-483b-8ff8-b2a664128c6b</id>
+    </Compile>
+    <Compile Include="UyeOl.UserCode.cs">
+      <BoundTo>12c4711c-74ec-4227-81f1-6c93dc5dc2ff</BoundTo>
+      <DependentUpon>UyeOl.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>8698c175-451c-4d8b-bbc0-c11efbfe84e3</id>
+    </Compile>
+    <Compile Include="UyeOlSub.cs">
+      <BoundTo>47c85b1c-b36d-45cc-9999-020ddaf200b3</BoundTo>
+      <DependentUpon>UyeOlSub.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>47d517a2-445d-4b4b-90b8-ba662534f1c7</id>
+    </Compile>
+    <Compile Include="UyeOlSub.UserCode.cs">
+      <BoundTo>47c85b1c-b36d-45cc-9999-020ddaf200b3</BoundTo>
+      <DependentUpon>UyeOlSub.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ea16a944-f07b-4b96-b81b-30b236818c56</id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AddProductWishList.rxrec">
+      <BoundTo>fce6cf90-91f8-446e-ba9f-55672c66ec54</BoundTo>
+      <id>adb26371-cef7-457d-b252-ef3dfb11bde7</id>
+      <recordtableid>573e8829-250b-4dfe-a3f3-881e4f8e1f22</recordtableid>
+    </None>
+    <None Include="answer.rxrec">
+      <BoundTo>fce6cf90-91f8-446e-ba9f-55672c66ec54</BoundTo>
+      <id>d79eb6f7-9d84-455e-8077-0127e9b8b215</id>
+      <recordtableid>e6195b49-8de7-4e6e-88b8-4c4bb6b0b926</recordtableid>
+    </None>
+    <None Include="app.config">
+      <id>5392a61c-54f6-47d5-9b25-3e59f58b5144</id>
+    </None>
+    <None Include="ClicksOnUyeOl.rxrec">
+      <BoundTo>fce6cf90-91f8-446e-ba9f-55672c66ec54</BoundTo>
+      <id>557e994f-321f-43d0-9178-8a8bc5f347b9</id>
+      <recordtableid>cb7d629d-e50f-45db-a865-784a094cd8be</recordtableid>
+    </None>
+    <None Include="CloseBrowser.rxrec">
+      <BoundTo>fce6cf90-91f8-446e-ba9f-55672c66ec54</BoundTo>
+      <id>1b4dc70b-87dd-4899-a388-d90f0cd18b2d</id>
+      <recordtableid>ffa16568-b1c4-482d-a83f-2ccfab25e415</recordtableid>
+    </None>
+    <None Include="emailblankspace.rxrec">
+      <BoundTo>fce6cf90-91f8-446e-ba9f-55672c66ec54</BoundTo>
+      <id>0c60cce8-27d6-41f3-9f39-74f789a6c608</id>
+      <recordtableid>e1dcd9df-b57a-444e-b2db-e08aa60185e9</recordtableid>
+    </None>
+    <None Include="emailgir.rxrec">
+      <BoundTo>fce6cf90-91f8-446e-ba9f-55672c66ec54</BoundTo>
+      <id>c04d9a0d-1c98-4e36-8c09-879590b7f5c8</id>
+      <recordtableid>ebfd930c-9f8f-493d-98aa-e8c58251f23f</recordtableid>
+    </None>
+    <None Include="Eposta.rxrec">
+      <BoundTo>fce6cf90-91f8-446e-ba9f-55672c66ec54</BoundTo>
+      <id>990dd8db-b601-4e88-9bba-3f5ef71e29e4</id>
+      <recordtableid>987298fd-f145-4fe5-95f2-4e6c4cfcedc4</recordtableid>
+    </None>
+    <None Include="ErkekButton.rxrec">
+      <BoundTo>fce6cf90-91f8-446e-ba9f-55672c66ec54</BoundTo>
+      <id>c0c8b250-fe70-4cf9-97b1-d8db4ccde723</id>
+      <recordtableid>81218213-392d-4284-aa20-7c8a18eb6a39</recordtableid>
+    </None>
+    <None Include="ErkekTshirt.rxrec">
+      <BoundTo>fce6cf90-91f8-446e-ba9f-55672c66ec54</BoundTo>
+      <id>e120e3f4-c29c-4995-a07e-1d0c70835345</id>
+      <recordtableid>38394e13-f82a-4300-a65d-6a624bc4d0af</recordtableid>
+    </None>
+    <None Include="FavorilemeGit.rxrec">
+      <BoundTo>fce6cf90-91f8-446e-ba9f-55672c66ec54</BoundTo>
+      <id>e22aab4f-0001-4a03-b56c-04efdab0d7ef</id>
+      <recordtableid>9e3d1e13-62f9-4a9b-b3db-cc0368482a5a</recordtableid>
+    </None>
+    <None Include="FavorilerimUrunDogrula.rxrec">
+      <BoundTo>fce6cf90-91f8-446e-ba9f-55672c66ec54</BoundTo>
+      <id>82fb0e30-9226-4607-9c20-5d171c64dcac</id>
+      <recordtableid>32317d7e-9291-4559-95c9-95b27a54b2d0</recordtableid>
+    </None>
+    <None Include="GirisYap.rxrec">
+      <id>7e3d0715-0d11-45fd-a908-d84405b7d921</id>
+      <recordtableid>579e131c-f896-438b-873d-73ce041b6a5a</recordtableid>
+      <BoundTo>fce6cf90-91f8-446e-ba9f-55672c66ec54</BoundTo>
+    </None>
+    <None Include="GirisYap2.rxrec">
+      <BoundTo>fce6cf90-91f8-446e-ba9f-55672c66ec54</BoundTo>
+      <id>b6e689a5-5c17-4ba3-a2f9-e220e5968d09</id>
+      <recordtableid>f429e423-8247-4fc5-b93f-f60f1fb3598e</recordtableid>
+    </None>
+    <None Include="Help.rxrec">
+      <BoundTo>fce6cf90-91f8-446e-ba9f-55672c66ec54</BoundTo>
+      <id>96ff053a-2026-49c2-9108-2b921997b0fe</id>
+      <recordtableid>aebd3eff-8412-405c-ba51-712f251d156a</recordtableid>
+    </None>
+    <None Include="KadınButton.rxrec">
+      <BoundTo>fce6cf90-91f8-446e-ba9f-55672c66ec54</BoundTo>
+      <id>647fbab7-3ee5-4531-93cb-717d15492d65</id>
+      <recordtableid>ac7019f4-3175-4752-b33d-85024dbb2bc4</recordtableid>
+    </None>
+    <None Include="LogOut.rxrec">
+      <BoundTo>fce6cf90-91f8-446e-ba9f-55672c66ec54</BoundTo>
+      <id>2f0661c3-5f94-4aab-ab23-296f40845e20</id>
+      <recordtableid>46e79c1b-f707-485d-b6e9-8b73463fc25d</recordtableid>
+    </None>
+    <None Include="OdemeSayfasinaGec.rxrec">
+      <BoundTo>fce6cf90-91f8-446e-ba9f-55672c66ec54</BoundTo>
+      <id>fdce3eac-5ef8-48fe-9016-87b65648c2d5</id>
+      <recordtableid>94e587e5-018d-4bee-96bc-f2108e1abc7e</recordtableid>
+    </None>
+    <None Include="OpenBrowser.rxrec">
+      <BoundTo>fce6cf90-91f8-446e-ba9f-55672c66ec54</BoundTo>
+      <id>aaaafc7d-a546-47e9-995d-48cc3d1c14a5</id>
+      <recordtableid>78de0e53-fd12-4806-9682-c6d2370612a9</recordtableid>
+    </None>
+    <None Include="Recording1.rxrec">
+      <BoundTo>fce6cf90-91f8-446e-ba9f-55672c66ec54</BoundTo>
+      <id>91001c80-a2e8-4f68-81c6-1de2f1be30d8</id>
+      <recordtableid>889553f1-84a0-4da7-a157-1a57cc84f657</recordtableid>
+    </None>
+    <None Include="Reporting.rxrec">
+      <BoundTo>fce6cf90-91f8-446e-ba9f-55672c66ec54</BoundTo>
+      <id>fdab856b-83cc-4230-9b66-1c408f09afb3</id>
+      <recordtableid>e34c9de5-d39f-4de7-aaba-01099e37cd6a</recordtableid>
+    </None>
+    <None Include="SepeteEkle.rxrec">
+      <BoundTo>fce6cf90-91f8-446e-ba9f-55672c66ec54</BoundTo>
+      <id>7da8fc63-a80e-494d-9e9f-7e72e134c068</id>
+      <recordtableid>80202612-3a63-49ba-98fb-0db035715c0b</recordtableid>
+    </None>
+    <None Include="SepeteGit.rxrec">
+      <BoundTo>fce6cf90-91f8-446e-ba9f-55672c66ec54</BoundTo>
+      <id>2d5f0e1d-6b1e-4642-8d81-a14f699ab237</id>
+      <recordtableid>db03bdc1-2d12-44e5-9c06-f0f69c7c184d</recordtableid>
+    </None>
+    <None Include="SepetiOnayla.rxrec">
+      <BoundTo>fce6cf90-91f8-446e-ba9f-55672c66ec54</BoundTo>
+      <id>028a7b03-29b1-467c-b7f1-77faf34e4cca</id>
+      <recordtableid>35ed1e19-2f1c-4317-8cbd-c6c77a64ca0e</recordtableid>
+    </None>
+    <None Include="SepettekiUrunSayisiniArtir.rxrec">
+      <BoundTo>fce6cf90-91f8-446e-ba9f-55672c66ec54</BoundTo>
+      <id>ecd89976-f365-44a1-968f-ba9d8f1ff5c1</id>
+      <recordtableid>685d3354-efde-4d91-9b10-1b781c311f76</recordtableid>
+    </None>
+    <None Include="SepettekiUrunuDogrula.rxrec">
+      <BoundTo>fce6cf90-91f8-446e-ba9f-55672c66ec54</BoundTo>
+      <id>56840c86-0885-47c0-a9ae-ebfb9f9ef51b</id>
+      <recordtableid>72777b3c-4dbb-4002-b904-7750309c7de6</recordtableid>
+    </None>
+    <None Include="SepettekiUrunuSil.rxrec">
+      <BoundTo>fce6cf90-91f8-446e-ba9f-55672c66ec54</BoundTo>
+      <id>941e46f9-6569-4ea1-b6e2-a8ea7173ffb4</id>
+      <recordtableid>20dbf578-3b3c-4131-8dd6-f226d6372f3f</recordtableid>
+    </None>
+    <None Include="Sifre.rxrec">
+      <BoundTo>fce6cf90-91f8-446e-ba9f-55672c66ec54</BoundTo>
+      <id>391f5fe7-11f1-48d6-8769-9a9c2804a70c</id>
+      <recordtableid>d5ff802f-6447-4290-8964-7501bca40921</recordtableid>
+    </None>
+    <None Include="sifreblankspace.rxrec">
+      <BoundTo>fce6cf90-91f8-446e-ba9f-55672c66ec54</BoundTo>
+      <id>8019c4e0-6f3a-4f7c-a08e-7c83ceac43f2</id>
+      <recordtableid>91ac0204-8db4-4de9-b84f-508f6fcd8aa0</recordtableid>
+    </None>
+    <None Include="sifregir.rxrec">
+      <BoundTo>fce6cf90-91f8-446e-ba9f-55672c66ec54</BoundTo>
+      <id>8c27b48e-d876-40d5-9a51-cf64941817e3</id>
+      <recordtableid>7e075518-cb51-432b-85a4-ced51ffb7822</recordtableid>
+    </None>
+    <None Include="TrendyolTestRepository.rximg">
+      <BoundTo>fce6cf90-91f8-446e-ba9f-55672c66ec54</BoundTo>
+      <DependentUpon>TrendyolTestRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>db25c153-532c-4d53-a21f-de1587319460</id>
+    </None>
+    <None Include="TrendyolTestRepository.rxrep">
+      <id>fce6cf90-91f8-446e-ba9f-55672c66ec54</id>
+      <repoid>54f6c10d-9aab-41cf-922a-ad1785b30a0c</repoid>
+      <reporootid>9fb9b44c-a0d9-4454-a26c-fa4f04e128ac</reporootid>
+    </None>
+    <None Include="UrunSayfasinaGit.rxrec">
+      <BoundTo>fce6cf90-91f8-446e-ba9f-55672c66ec54</BoundTo>
+      <id>ef833e90-fa48-49fd-904e-49c26e0dfe21</id>
+      <recordtableid>6f5963bf-a6e1-442c-93d6-b408d5360496</recordtableid>
+    </None>
+    <None Include="UrunSayisininArtirildiginiDogrula.rxrec">
+      <BoundTo>fce6cf90-91f8-446e-ba9f-55672c66ec54</BoundTo>
+      <id>c755c528-662c-4dae-bf9a-02f0b899d85b</id>
+      <recordtableid>6426a07b-d5c9-4b80-8c6a-7cd449c8dbcf</recordtableid>
+    </None>
+    <None Include="UrunTikla.rxrec">
+      <BoundTo>fce6cf90-91f8-446e-ba9f-55672c66ec54</BoundTo>
+      <id>d0592a76-aaf8-4e8a-855a-71ca1cc8f88c</id>
+      <recordtableid>489481e7-767a-4bf4-96fd-a40e2b077643</recordtableid>
+    </None>
+    <None Include="UrunuFavoriyeEkle.rxrec">
+      <BoundTo>fce6cf90-91f8-446e-ba9f-55672c66ec54</BoundTo>
+      <id>19e05890-e78f-4b48-8bf2-24cc1ffe3d4a</id>
+      <recordtableid>0594bd7c-3f8f-41d9-af86-2d83fc5e1a3b</recordtableid>
+    </None>
+    <None Include="UserClicksOnUyeOl.rxrec">
+      <BoundTo>fce6cf90-91f8-446e-ba9f-55672c66ec54</BoundTo>
+      <id>8ad5e6a0-ef9b-4eee-957c-9f5e0c7d0c89</id>
+      <recordtableid>e3e138c6-9a45-4592-9622-9ea9909a1f37</recordtableid>
+    </None>
+    <None Include="UyeOl.rxrec">
+      <BoundTo>fce6cf90-91f8-446e-ba9f-55672c66ec54</BoundTo>
+      <id>12c4711c-74ec-4227-81f1-6c93dc5dc2ff</id>
+      <recordtableid>60e55cfd-bb1a-4ab3-97ce-966dc8ee9901</recordtableid>
+    </None>
+    <None Include="UyeOlSub.rxrec">
+      <BoundTo>fce6cf90-91f8-446e-ba9f-55672c66ec54</BoundTo>
+      <id>47c85b1c-b36d-45cc-9999-020ddaf200b3</id>
+      <recordtableid>da674f5a-777a-404c-a730-5d5e22109d2f</recordtableid>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="TrendyolTest.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>e6d0f6fa-7eb1-4fa4-b57f-cda0db877d52</id>
+    </Content>
+    <Content Include="TrendyolTest.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>e664b6a3-01e0-4899-88b2-d131688ce50a</id>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />
+</Project>

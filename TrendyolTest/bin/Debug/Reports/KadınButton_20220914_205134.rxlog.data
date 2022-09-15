@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="11.24s"
+		durationms="11244"
+		type="root"
+		rid="153014531a8bd44c"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="user"
+		rxversion="10.2.4.0"
+		host="DESKTOP-UK4GL4A"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="tr-TR"
+		dtnlanguage="tr-TR"
+		screenresolution="1920x1080"
+		timestamp="14.09.2022 20:51:36"
+		timestampiso="2022-09-14T17:51:36"
+		endtime="14.09.2022 20:51:47"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="KadınVeErkekButtons">
+		<detail>
+			KadınVeErkekButtons
+		</detail>
+		<errormessage>
+			Attribute 'Class' of element for item 'TrendyolTestRepository.ApplicationUnderTest.Kadın' can not be evaluated (actual='(null)', expected='active').
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.174"
+			timeRelativeToTestModuleStartTime="00:05.174"
+			timeWallClock="20:51:41"
+			time="00:05.174"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.Kadın' at 37;15.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'login-register']//form[@action='https://www.trendyol.com/uyelik?cb=https%3A%2F%2Fwww.trendyol.com%2F']/div[3]/div/button[1]/span[@innertext='Kadın']"
+				itempath=".//div[#'login-register']//form[@action='https://www.trendyol.com/uyelik?cb=https%3A%2F%2Fwww.trendyol.com%2F']/div[3]/div/button[1]/span[@innertext='Kadın']"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.Kadın"
+				id="f857e369d4be49979a2c023f36cff185"
+				timeout="60000"
+				codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\KadınButton.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.465"
+			timeRelativeToTestModuleStartTime="00:07.465"
+			timeWallClock="20:51:43"
+			time="00:07.465"
+			level="Warn"
+			category="Click"
+			errimg="images_KadınBut_4d6183fe\KadınBut_c5633100_rxlog.jpg"
+			errthumb="images_KadınBut_4d6183fe\KadınBut_c5633100_rxlog_thumb.jpg">
+			<message>
+				The mouse action was performed outside the boundaries of the assigned UI element.<br/>
+			</message>
+			<metainfo
+				codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\KadınButton.cs"
+				codeline="83"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.994"
+			timeRelativeToTestModuleStartTime="00:07.994"
+			timeWallClock="20:51:44"
+			time="00:07.994"
+			level="Info"
+			category="Validation"
+			errimg="images_KadınBut_4d6183fe\KadınBut_4d6183fe_000dfa98_trace.jpg"
+			errthumb="images_KadınBut_4d6183fe\KadınBut_4d6183fe_000dfa98_trace_thumb.jpg">
+			<message>
+				Validating AttributeContains (Class&gt;'active') on item 'ApplicationUnderTest.Kad&#305;n'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'login-register']//form[@action='https://www.trendyol.com/uyelik?cb=https%3A%2F%2Fwww.trendyol.com%2F']/div[3]/div/button[1]/span[@innertext='Kadın']"
+				itempath=".//div[#'login-register']//form[@action='https://www.trendyol.com/uyelik?cb=https%3A%2F%2Fwww.trendyol.com%2F']/div[3]/div/button[1]/span[@innertext='Kadın']"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.Kadın"
+				id="f857e369d4be49979a2c023f36cff185"
+				timeout="60000"
+				codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\KadınButton.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.105"
+			timeRelativeToTestModuleStartTime="00:11.105"
+			timeWallClock="20:51:47"
+			time="00:11.105"
+			level="Failure"
+			category="Validation"
+			errimg="images_KadınBut_4d6183fe\KadınBut_4d6183fe_b62f35c6_trace.jpg"
+			errthumb="images_KadınBut_4d6183fe\KadınBut_4d6183fe_b62f35c6_trace_thumb.jpg">
+			<message>
+				Attribute 'Class' of element for item 'TrendyolTestRepository.ApplicationUnderTest.Kadın' can not be evaluated (actual='(null)', expected='active').
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'login-register']//form[@action='https://www.trendyol.com/uyelik?cb=https%3A%2F%2Fwww.trendyol.com%2F']/div[3]/div/button[1]/span[@innertext='Kadın']"
+				itempath=".//div[#'login-register']//form[@action='https://www.trendyol.com/uyelik?cb=https%3A%2F%2Fwww.trendyol.com%2F']/div[3]/div/button[1]/span[@innertext='Kadın']"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.Kadın"
+				id="f857e369d4be49979a2c023f36cff185"
+				timeout="60000"
+				codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\KadınButton.cs"
+				codeline="87"
+				loglvl="Failure"
+				itemindex="1">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.126"
+			timeRelativeToTestModuleStartTime="00:11.126"
+			timeWallClock="20:51:47"
+			time="00:11.126"
+			level="Error"
+			category="Module"
+			errimg="images_KadınBut_4d6183fe\KadınBut_4d6183fe_b62f35c6_trace.jpg"
+			errthumb="images_KadınBut_4d6183fe\KadınBut_4d6183fe_b62f35c6_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Attribute 'Class' of element for item 'TrendyolTestRepository.ApplicationUnderTest.Kadın' can not be evaluated (actual='(null)', expected='active').
+			</message>
+			<metainfo
+				stacktrace="   konum: Ranorex.Validate.Execute(AttributeValidation attributeValidation, Func`1 action, Options options, RepoItemInfo itemInfo)
+   konum: Ranorex.Validate.Execute(IElement element, IMatch match, String message, Options options, RepoItemInfo itemInfo, Func`3 comparisonFunc, String reasonPattern)
+   konum: Ranorex.Validate.AttributeContainsInternal(IElement element, String name, String value, String message, Options options, RepoItemInfo itemInfo)
+   konum: Ranorex.Validate.AttributeContainsInternal(RepoItemInfo itemInfo, String name, String value, String message, Options options)
+   konum: Ranorex.Validate.AttributeContains(RepoItemInfo itemInfo, String name, String value, String message, Options options)
+   konum: Ranorex.Validate.AttributeContains(RepoItemInfo itemInfo, String name, String value)
+   konum: TrendyolTest.KadınVeErkekButtons.Ranorex.Core.Testing.ITestModule.Run() c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\KadınButton.cs içinde: satır 87
+   konum: Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\user\Documents\Ranorex\RanorexStudio Projects\TrendyolTest\TrendyolTest\KadınButton.cs"
+				codeline="87"
+				type="repoitem"
+				path="/dom[@domain='www.trendyol.com']//div[#'login-register']//form[@action='https://www.trendyol.com/uyelik?cb=https%3A%2F%2Fwww.trendyol.com%2F']/div[3]/div/button[1]/span[@innertext='Kadın']"
+				itempath=".//div[#'login-register']//form[@action='https://www.trendyol.com/uyelik?cb=https%3A%2F%2Fwww.trendyol.com%2F']/div[3]/div/button[1]/span[@innertext='Kadın']"
+				fullname="TrendyolTestRepository.ApplicationUnderTest.Kadın"
+				id="f857e369d4be49979a2c023f36cff185"
+				timeout="60000"
+				loglvl="Error"
+				itemindex="1">
+			</metainfo>
+		</item>
+	</activity>
+</report>
